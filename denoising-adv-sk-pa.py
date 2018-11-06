@@ -79,7 +79,9 @@ print('predicted class', prediction, labels[prediction])
 
 label = np.int64(label)
 
-attack = foolbox.attacks.FGSM(fmodel)
+# attack = foolbox.attacks.FGSM(fmodel)
+# attack = foolbox.attacks.GaussianBlurAttack(fmodel)
+attack = foolbox.attacks.ApproximateLBFGSAttack(fmodel)
 adversarial = attack(image, label)
 
 print('adversarial class', labels[np.argmax(fmodel.predictions(adversarial))])
@@ -123,8 +125,8 @@ figsize = 5
 
 net = skip(
             input_depth, 3, 
-            num_channels_down = [8, 16, 32, 64, 64], # original [8, 16, 32, 64, 128]
-            num_channels_up   = [8, 16, 32, 64, 64], # original [8, 16, 32, 64, 128]
+            num_channels_down = [8, 16, 32, 64, 128], # original [8, 16, 32, 64, 128]
+            num_channels_up   = [8, 16, 32, 64, 128], # original [8, 16, 32, 64, 128]
             num_channels_skip = [0, 0, 0, 4, 4], 
             upsample_mode='bilinear',
             need_sigmoid=True, need_bias=True, pad=pad, act_fun='LeakyReLU')
@@ -135,34 +137,14 @@ net = net.type(dtype)
 #net_input = get_noise(input_depth, INPUT, (img_pil.size[1], img_pil.size[0])).type(dtype).detach()
 net_input = get_noise(input_depth, INPUT, (img_pil.shape[1], img_pil.shape[0])).type(dtype).detach()
 
-print (net_input)
-
 # Compute number of parameters
 s  = sum([np.prod(list(p.size())) for p in net.parameters()]); 
 print ('Number of params: %d' % s)
 
 # Loss
 mse = torch.nn.MSELoss().type(dtype)
-
 img_noisy_torch = np_to_torch(img_noisy_np).type(dtype)
-
-
-# # Optimize
-
-# alexnet = t_models.alexnet(pretrained=True)
-# resnet = t_models.resnet101(pretrained=True)
-
-# alexnet.eval()
-# resnet.eval()
-# alexnet = alexnet.double()
-# resnet = resnet.double()
-
-#img_np_normal = (img_np - np.reshape([0.485, 0.456, 0.406],(3,1,1))/np.reshape([0.229, 0.224, 0.225],(3,1,1))).astype(float)
-#img_np_normal /= 255
-#print (img_np.shape)
-img_np_changed = (img_np) / 255
-img_np_changed = np.array(image, dtype=np.double)
-prediction = np.argmax(fmodel.predictions(img_np_changed))
+prediction = np.argmax(fmodel.predictions(np.array(img_np/255, dtype=np.double)))
 print ('Initial adversarial image prediction for resnet18:', prediction, labels[prediction])
 
 net_input_saved = net_input.detach().clone()
@@ -200,9 +182,8 @@ def closure():
         # plot_image_grid([np.clip(out_np, 0, 1), 
         #                  np.clip(torch_to_np(out_avg), 0, 1)], factor=figsize, nrow=1)
         #out_np_normal = (out_np - np.reshape([0.485, 0.456, 0.406],(3,1,1))/np.reshape([0.229, 0.224, 0.225],(3,1,1)))
-        out_np_changed = (out_np) / 255
-        out_np_changed = np.array(image, dtype=np.double)
-        predictions = np.argmax(fmodel.predictions(out_np_changed))
+        predictions = np.argmax(fmodel.predictions(np.array(out_np, dtype=np.double)))
+        
         print ('resnet18 prediction for current iteration:', predictions, labels[predictions])
         
     
