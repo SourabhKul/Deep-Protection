@@ -71,6 +71,13 @@ std = np.array([0.229, 0.224, 0.225]).reshape((3, 1, 1))
 fmodel = foolbox.models.PyTorchModel(
     resnet18, bounds=(0, 1), num_classes=1000, preprocessing=(mean, std))
 
+# Create a foolbox attack model
+
+attack = foolbox.attacks.FGSM(fmodel)
+# attack = foolbox.attacks.AdditiveGaussianNoiseAttack(fmodel)
+# attack = foolbox.attacks.BlendedUniformNoiseAttack(fmodel)
+# attack = foolbox.attacks.GaussianBlurAttack(fmodel)
+# attack = foolbox.attacks.NewtonFoolAttack(model=fmodel)
 correct = 0
 i = 0
 flag = False
@@ -103,12 +110,15 @@ def closure():
         # plot_image_grid([np.clip(out_np, 0, 1), 
         #                  np.clip(torch_to_np(out_avg), 0, 1)], factor=figsize, nrow=1)
         #out_np_normal = (out_np - np.reshape([0.485, 0.456, 0.406],(3,1,1))/np.reshape([0.229, 0.224, 0.225],(3,1,1)))
-        predictions = np.argmax(fmodel.predictions(np.array(out_np, dtype=np.double)))
-        print ('resnet18 prediction for current iteration:', predictions, labels[predictions])
-        if predictions == true_label and i < num_iter:
-            print ('Non-adversarial prior obtained!')
-            correct += 1
-            flag = True
+        predictions = np.argsort(fmodel.predictions(np.array(out_np, dtype=np.double)))[-5:][::-1]
+        print ('resnet18 prediction for current iteration:', predictions[0], labels[predictions[0]])
+        if (true_label in predictions):
+            if ((adversarial_label not in predictions) or ((adversarial_label in predictions) and (predictions.tolist().index(adversarial_label) >= predictions.tolist().index(true_label)))):
+                print ('Non-adversarial prior obtained at iteration', i, 'top', predictions.tolist().index(true_label)+1,'/5')
+                correct += 1
+                flag = True
+            else:
+                flag = False
 
     
     # Backtracking
@@ -132,23 +142,20 @@ def closure():
         flag = False
         return 0
 begin = time.time()
-for img in range(10):
+
+for img in range(25):
     prediction = np.argmax(fmodel.predictions(X_reshaped[img]))
     prediction2 = np.argmax(fmodel.predictions(np.flip(X_reshaped[img],axis=1)))
     print('predicted class', prediction, labels[prediction],'flipped', prediction2, labels[prediction2])
 
     # apply different attacks on source image
 
-    #attack = foolbox.attacks.FGSM(fmodel)
-    attack = foolbox.attacks.additive_noise(fmodel)
-    # attack = foolbox.attacks.BlendedUniformNoiseAttack(fmodel)
-    # attack = foolbox.attacks.GaussianBlurAttack(fmodel)
-
     # Generate adversarial images, check if they are indeed adversarial
 
     adversarial_image = attack(X_reshaped[img], y[img])
     prediction3 = np.argmax(fmodel.predictions(np.flip(adversarial_image,axis=2)))
-    print('adversarial class', labels[np.argmax(fmodel.predictions(adversarial_image))], 'flipped', prediction3, labels[prediction3])
+    adversarial_label = np.argmax(fmodel.predictions(adversarial_image))
+    print('adversarial class', labels[adversarial_label], 'flipped', prediction3, labels[prediction3])
 
     # Save adversatial image
     #imsave('C:/Users/Sourabh Kulkarni/Documents/CS682/Project/deep-image-prior/data/denoising/adversarial.png',np.transpose(adversarial*255,(1, 2, 0)))
@@ -227,7 +234,7 @@ for img in range(10):
     p = get_params(OPT_OVER, net, net_input)
     optimize(OPTIMIZER, p, closure, LR, num_iter)
     print (correct, 'out of ', img+1)
-    print ('Total time elapsed: ', time.time()-begin)
+    print ('Total time elapsed: ', int((time.time()-begin)/60), 'mins')
 
 print (correct)
 
