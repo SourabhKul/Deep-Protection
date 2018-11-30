@@ -205,6 +205,7 @@ def optimize(optimizer_type, parameters, closure, LR, num_iter):
         LR: learning rate
         num_iter: number of iterations 
     """
+
     if optimizer_type == 'LBFGS':
         # Do several steps with adam first
         optimizer = torch.optim.Adam(parameters, lr=0.001)
@@ -226,7 +227,23 @@ def optimize(optimizer_type, parameters, closure, LR, num_iter):
         
         for j in range(num_iter):
             optimizer.zero_grad()
-            closure()
-            optimizer.step()
+            loss = closure()
+            if loss == 0:
+                break
+            else:
+                optimizer.step()
+    
+    elif optimizer_type == 'adadelta':
+        print('Starting optimization with AdaDelta')
+        optimizer = torch.optim.Adadelta(parameters)
+        
+        for j in range(num_iter):
+            optimizer.zero_grad()
+            loss = closure()
+            if loss == 0:
+                break
+            else:
+                optimizer.step()
+
     else:
         assert False
