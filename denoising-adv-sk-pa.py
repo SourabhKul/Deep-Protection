@@ -71,16 +71,14 @@ std = np.array([0.229, 0.224, 0.225]).reshape((3, 1, 1))
 fmodel = foolbox.models.PyTorchModel(
     resnet18, bounds=(0, 1), num_classes=1000, preprocessing=(mean, std))
 
-# Create a foolbox attack model
 
-attack = foolbox.attacks.FGSM(fmodel)
+#attack = foolbox.attacks.FGSM(fmodel)
 # attack = foolbox.attacks.AdditiveGaussianNoiseAttack(fmodel)
 # attack = foolbox.attacks.BlendedUniformNoiseAttack(fmodel)
 # attack = foolbox.attacks.GaussianBlurAttack(fmodel)
 # attack = foolbox.attacks.NewtonFoolAttack(model=fmodel)
-correct = 0
-i = 0
-flag = False
+
+
 
 def closure():
     
@@ -104,7 +102,7 @@ def closure():
     psrn_noisy = compare_psnr(img_noisy_np, out.detach().cpu().numpy()[0]) 
    
 
-    print ('Iteration %05d    Loss %f' % (i, total_loss.item()), '\r', end='')
+    # print ('Iteration %05d    Loss %f' % (i, total_loss.item()), '\r', end='')
     if  PLOT and i % show_every == 0:
         out_np = torch_to_np(out)
         # plot_image_grid([np.clip(out_np, 0, 1), 
@@ -112,6 +110,7 @@ def closure():
         #out_np_normal = (out_np - np.reshape([0.485, 0.456, 0.406],(3,1,1))/np.reshape([0.229, 0.224, 0.225],(3,1,1)))
         predictions = np.argsort(fmodel.predictions(np.array(out_np, dtype=np.double)))[-5:][::-1]
         print ('resnet18 prediction for current iteration:', predictions[0], labels[predictions[0]])
+        print ('Iteration %05d    Loss %f' % (i, total_loss.item()), '\r', end='')
         if (true_label in predictions):
             if ((adversarial_label not in predictions) or ((adversarial_label in predictions) and (predictions.tolist().index(adversarial_label) >= predictions.tolist().index(true_label)))):
                 print ('Non-adversarial prior obtained at iteration', i, 'top', predictions.tolist().index(true_label)+1,'/5')
@@ -143,100 +142,118 @@ def closure():
         return 0
 begin = time.time()
 
-for img in range(25):
-    prediction = np.argmax(fmodel.predictions(X_reshaped[img]))
-    prediction2 = np.argmax(fmodel.predictions(np.flip(X_reshaped[img],axis=1)))
-    print('predicted class', prediction, labels[prediction],'flipped', prediction2, labels[prediction2])
+# Create a list of foolbox attack models
 
-    # apply different attacks on source image
+attacks = [foolbox.attacks.FGSM(fmodel), foolbox.attacks.AdditiveGaussianNoiseAttack(fmodel), foolbox.attacks.BlendedUniformNoiseAttack(fmodel), foolbox.attacks.GaussianBlurAttack(fmodel), foolbox.attacks.NewtonFoolAttack(model=fmodel)]
 
-    # Generate adversarial images, check if they are indeed adversarial
-
-    adversarial_image = attack(X_reshaped[img], y[img])
-    prediction3 = np.argmax(fmodel.predictions(np.flip(adversarial_image,axis=2)))
-    adversarial_label = np.argmax(fmodel.predictions(adversarial_image))
-    print('adversarial class', labels[adversarial_label], 'flipped', prediction3, labels[prediction3])
-
-    # Save adversatial image
-    #imsave('C:/Users/Sourabh Kulkarni/Documents/CS682/Project/deep-image-prior/data/denoising/adversarial.png',np.transpose(adversarial*255,(1, 2, 0)))
-
-    # pass adversarial image to deep prior framework
-
-    img_noisy_pil = np.transpose(adversarial_image*255,(1, 2, 0))
-    img_noisy_np = pil_to_np(img_noisy_pil)
-
-    # As we don't have ground truth
-
-    img_pil = img_noisy_pil
-    img_np = img_noisy_np
-    img_pil = np.transpose(adversarial_image*255,(1, 2, 0))
-    img_np = pil_to_np(img_pil)
-    true_label = y[img]
-
-    # Add Extra Noise, if needed
-    #img_pil, img_np = get_noisy_image(img_np, sigma_)
-
-    # if PLOT:
-    #         plot_image_grid([img_np, img_noisy_np], 4, 6)
-
-
-    # Deep image prior setup
-
-
-    INPUT = 'noise' # 'meshgrid'
-    pad = 'reflection'
-    OPT_OVER = 'net' # 'net,input'
-
-    reg_noise_std = 1./30. # set to 1./20. for sigma=50
-    LR = 0.01 # defalut 0.01
-
-    OPTIMIZER='adam' # 'LBFGS'
-    show_every = 50 # 100
-    exp_weight=0.99
-
-
-    num_iter = 3000
-    input_depth = 3
-    figsize = 5 
-
-    net = skip(
-                input_depth, 3, 
-                num_channels_down = [8, 16, 32, 64, 128], # original [8, 16, 32, 64, 128]
-                num_channels_up   = [8, 16, 32, 64, 128], # original [8, 16, 32, 64, 128]
-                num_channels_skip = [0, 0, 0, 4, 4], 
-                upsample_mode='bilinear',
-                need_sigmoid=True, need_bias=True, pad=pad, act_fun='Swish')
-
-    net = net.type(dtype)
-
-
-    #net_input = get_noise(input_depth, INPUT, (img_pil.size[1], img_pil.size[0])).type(dtype).detach()
-    net_input = get_noise(input_depth, INPUT, (img_pil.shape[1], img_pil.shape[0])).type(dtype).detach()
-
-    # Compute number of parameters
-    s  = sum([np.prod(list(p.size())) for p in net.parameters()]); 
-    print ('Number of params: %d' % s)
-
-    # Loss
-    mse = torch.nn.MSELoss().type(dtype)
-    img_noisy_torch = np_to_torch(img_noisy_np).type(dtype)
-    # prediction = np.argmax(fmodel.predictions(np.array(img_np/255, dtype=np.double)))
-    # print ('Initial adversarial image prediction for resnet18:', prediction, labels[prediction])
-
-    net_input_saved = net_input.detach().clone()
-    noise = net_input.detach().clone()
-    out_avg = None
-    last_net = None
-    psrn_noisy_last = 0
-
+for attack in attacks:
+    print (attack.name)
+    
+    skipped = 0
+    correct = 0
     i = 0
+    flag = False
 
-    p = get_params(OPT_OVER, net, net_input)
-    optimize(OPTIMIZER, p, closure, LR, num_iter)
-    print (correct, 'out of ', img+1)
-    print ('Total time elapsed: ', int((time.time()-begin)/60), 'mins')
+    for img in range(25):
+        true_label = y[img]
+        prediction = np.argmax(fmodel.predictions(X_reshaped[img]))
+        #prediction2 = np.argmax(fmodel.predictions(np.flip(X_reshaped[img],axis=1)))
+        print('predicted class', prediction, labels[prediction], true_label)
 
-print (correct)
+        if prediction != true_label:
+            print ('Prediction falied, skipping this one')
+            correct += 1
+            pass
+        
+        # apply different attacks on source image
+
+        # Generate adversarial images, check if they are indeed adversarial
+
+        adversarial_image = attack(X_reshaped[img], y[img])
+        prediction3 = np.argmax(fmodel.predictions(np.flip(adversarial_image,axis=2)))
+        adversarial_label = np.argmax(fmodel.predictions(adversarial_image))
+        print('adversarial class', labels[adversarial_label], 'flipped', prediction3, labels[prediction3])
+
+        # Save adversatial image
+        #imsave('C:/Users/Sourabh Kulkarni/Documents/CS682/Project/deep-image-prior/data/denoising/adversarial.png',np.transpose(adversarial*255,(1, 2, 0)))
+
+        # pass adversarial image to deep prior framework
+
+        img_noisy_pil = np.transpose(adversarial_image*255,(1, 2, 0))
+        img_noisy_np = pil_to_np(img_noisy_pil)
+
+        # As we don't have ground truth
+
+        img_pil = img_noisy_pil
+        img_np = img_noisy_np
+        img_pil = np.transpose(adversarial_image*255,(1, 2, 0))
+        img_np = pil_to_np(img_pil)
+        
+
+        # Add Extra Noise, if needed
+        #img_pil, img_np = get_noisy_image(img_np, sigma_)
+
+        # if PLOT:
+        #         plot_image_grid([img_np, img_noisy_np], 4, 6)
+
+
+        # Deep image prior setup
+
+
+        INPUT = 'noise' # 'meshgrid'
+        pad = 'reflection'
+        OPT_OVER = 'net' # 'net,input'
+
+        reg_noise_std = 1./30. # set to 1./20. for sigma=50
+        LR = 0.01 # defalut 0.01
+
+        OPTIMIZER='adam' # 'LBFGS'
+        show_every = 50 # 100
+        exp_weight=0.99
+
+
+        num_iter = 3000
+        input_depth = 3
+        figsize = 5 
+
+        net = skip(
+                    input_depth, 3, 
+                    num_channels_down = [8, 16, 32, 64, 128], # original [8, 16, 32, 64, 128]
+                    num_channels_up   = [8, 16, 32, 64, 128], # original [8, 16, 32, 64, 128]
+                    num_channels_skip = [0, 0, 0, 4, 4], 
+                    upsample_mode='bilinear',
+                    need_sigmoid=True, need_bias=True, pad=pad, act_fun='Swish')
+
+        net = net.type(dtype)
+
+
+        #net_input = get_noise(input_depth, INPUT, (img_pil.size[1], img_pil.size[0])).type(dtype).detach()
+        net_input = get_noise(input_depth, INPUT, (img_pil.shape[1], img_pil.shape[0])).type(dtype).detach()
+
+        # Compute number of parameters
+        s  = sum([np.prod(list(p.size())) for p in net.parameters()]); 
+        print ('Number of params: %d' % s)
+
+        # Loss
+        mse = torch.nn.MSELoss().type(dtype)
+        img_noisy_torch = np_to_torch(img_noisy_np).type(dtype)
+        # prediction = np.argmax(fmodel.predictions(np.array(img_np/255, dtype=np.double)))
+        # print ('Initial adversarial image prediction for resnet18:', prediction, labels[prediction])
+
+        net_input_saved = net_input.detach().clone()
+        noise = net_input.detach().clone()
+        out_avg = None
+        last_net = None
+        psrn_noisy_last = 0
+
+        i = 0
+
+        p = get_params(OPT_OVER, net, net_input)
+        optimize(OPTIMIZER, p, closure, LR, num_iter)
+        print (correct, 'out of ', img+1)
+        print ('Total time elapsed: ', int((time.time()-begin)/60), 'mins')
+
+    print ('total correct ', correct, 'skipped', skipped)
 
 
 # out_np = torch_to_np(net(net_input))
