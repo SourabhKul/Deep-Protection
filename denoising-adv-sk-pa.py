@@ -60,6 +60,9 @@ X, y, class_names = load_imagenet_val(num=25)
 X = X / 255
 X_reshaped = np.moveaxis(X,3,1)
 
+for img in y:
+    print (img, ',', labels[img])
+
 # Set up a classifer (resnet 18), and a foolbox model to attck that classifier.
 
 resnet18 = t_models.resnet18(pretrained=True).eval()
