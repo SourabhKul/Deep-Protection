@@ -56,17 +56,17 @@ labels = {int(key): value for key, value in response.json().items()}
 
 # Get 25 ImageNet validation images, preprocess them for foolbox
 
-X, y, class_names = load_imagenet_val(num=25)
+X, y, class_names = load_imagenet_val(num=100)
 X = X / 255
 X_reshaped = np.moveaxis(X,3,1)
-
+print ('Data type', X.dtype , 'Image Classes:')
 for img in y:
     print (img, ',', labels[img])
 
 # Set up a classifer (resnet 18), and a foolbox model to attck that classifier.
 
 resnet18 = t_models.resnet18(pretrained=True).eval()
-resnet18.double()
+resnet18.float()
 if torch.cuda.is_available():
     resnet18 = resnet18.cuda()
 mean = np.array([0.485, 0.456, 0.406]).reshape((3, 1, 1))
@@ -111,7 +111,7 @@ def closure():
         # plot_image_grid([np.clip(out_np, 0, 1), 
         #                  np.clip(torch_to_np(out_avg), 0, 1)], factor=figsize, nrow=1)
         #out_np_normal = (out_np - np.reshape([0.485, 0.456, 0.406],(3,1,1))/np.reshape([0.229, 0.224, 0.225],(3,1,1)))
-        predictions = np.argsort(fmodel.predictions(np.array(out_np, dtype=np.double)))[-5:][::-1]
+        predictions = np.argsort(fmodel.predictions(np.array(out_np, dtype=np.float32)))[-5:][::-1]
         print ('resnet18 prediction for current iteration:', predictions[0], labels[predictions[0]])
         print ('Iteration %05d    Loss %f' % (i, total_loss.item()), '\r', end='')
         if (true_label in predictions):
@@ -147,7 +147,7 @@ begin = time.time()
 
 # Create a list of foolbox attack models
 
-attacks = [foolbox.attacks.FGSM(fmodel), foolbox.attacks.AdditiveGaussianNoiseAttack(fmodel), foolbox.attacks.BlendedUniformNoiseAttack(fmodel), foolbox.attacks.GaussianBlurAttack(fmodel), foolbox.attacks.NewtonFoolAttack(model=fmodel)]
+attacks = [foolbox.attacks.FGSM(fmodel), foolbox.attacks.AdditiveGaussianNoiseAttack(fmodel), foolbox.attacks.BlendedUniformNoiseAttack(fmodel), foolbox.attacks.GaussianBlurAttack(fmodel), foolbox.attacks.NewtonFoolAttack(model=fmodel), foolbox.attacks.SaliencyMapAttack(model=fmodel)]
 
 for attack in attacks:
     print (attack.name)
@@ -157,7 +157,7 @@ for attack in attacks:
     i = 0
     flag = False
 
-    for img in range(25):
+    for img in range(100):
         true_label = y[img]
         prediction = np.argmax(fmodel.predictions(X_reshaped[img]))
         #prediction2 = np.argmax(fmodel.predictions(np.flip(X_reshaped[img],axis=1)))
@@ -166,16 +166,16 @@ for attack in attacks:
         if prediction != true_label:
             print ('Prediction falied, skipping this one')
             correct += 1
-            pass
+            skipped += 1
+            continue
         
-        # apply different attacks on source image
+
 
         # Generate adversarial images, check if they are indeed adversarial
 
         adversarial_image = attack(X_reshaped[img], y[img])
-        prediction3 = np.argmax(fmodel.predictions(np.flip(adversarial_image,axis=2)))
         adversarial_label = np.argmax(fmodel.predictions(adversarial_image))
-        print('adversarial class', labels[adversarial_label], 'flipped', prediction3, labels[prediction3])
+        print('adversarial class',adversarial_label, labels[adversarial_label])
 
         # Save adversatial image
         #imsave('C:/Users/Sourabh Kulkarni/Documents/CS682/Project/deep-image-prior/data/denoising/adversarial.png',np.transpose(adversarial*255,(1, 2, 0)))
@@ -256,7 +256,7 @@ for attack in attacks:
         print (correct, 'out of ', img+1)
         print ('Total time elapsed: ', int((time.time()-begin)/60), 'mins')
 
-    print ('total correct ', correct, 'skipped', skipped)
+    print ('Summary of attack', attack.name, ': total correct ', correct-skipped, 'out of ', 100-skipped)
 
 
 # out_np = torch_to_np(net(net_input))

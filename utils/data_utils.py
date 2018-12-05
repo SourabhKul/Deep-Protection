@@ -245,7 +245,7 @@ def load_imagenet_val(num=None):
     - y: numpy array of integer image labels, shape [num]
     - class_names: dict mapping integer label to class name
     """
-    imagenet_fn = 'C:/Users/Sourabh Kulkarni/Documents/CS682/Project/deep-image-prior/imagenet_val_25.npz'
+    imagenet_fn = 'C:/Users/Sourabh Kulkarni/Documents/CS682/Project/deep-image-prior/imagenet_val_100.npz'
     if not os.path.isfile(imagenet_fn):
       print('file %s not found' % imagenet_fn)
       print('Run the following:')
