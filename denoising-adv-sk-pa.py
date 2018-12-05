@@ -146,11 +146,14 @@ def closure():
 begin = time.time()
 
 # Create a list of foolbox attack models
+# batch 1
+# attacks = [foolbox.attacks.FGSM(fmodel), foolbox.attacks.AdditiveGaussianNoiseAttack(fmodel), foolbox.attacks.BlendedUniformNoiseAttack(fmodel), foolbox.attacks.GaussianBlurAttack(fmodel), foolbox.attacks.NewtonFoolAttack(model=fmodel), foolbox.attacks.SaliencyMapAttack(model=fmodel)]
+# batch 2
+attacks = [foolbox.attacks.FGSM(fmodel), foolbox.attacks.DeepFoolAttack(fmodel), foolbox.attacks.CarliniWagnerL2Attack(fmodel), foolbox.attacks.SaltAndPepperNoiseAttack(fmodel)]
 
-attacks = [foolbox.attacks.FGSM(fmodel), foolbox.attacks.AdditiveGaussianNoiseAttack(fmodel), foolbox.attacks.BlendedUniformNoiseAttack(fmodel), foolbox.attacks.GaussianBlurAttack(fmodel), foolbox.attacks.NewtonFoolAttack(model=fmodel), foolbox.attacks.SaliencyMapAttack(model=fmodel)]
 
 for attack in attacks:
-    print (attack.name)
+    print ('Begin attack', attack.name())
     
     skipped = 0
     correct = 0
@@ -164,7 +167,7 @@ for attack in attacks:
         print('predicted class', prediction, labels[prediction], true_label)
 
         if prediction != true_label:
-            print ('Prediction falied, skipping this one')
+            print ('Prediction falied, skipping...')
             correct += 1
             skipped += 1
             continue
@@ -172,8 +175,15 @@ for attack in attacks:
 
 
         # Generate adversarial images, check if they are indeed adversarial
-
+        adversarial_image = None
         adversarial_image = attack(X_reshaped[img], y[img])
+        
+        if adversarial_image is None:
+            print ('Attack Failed, skipping...')
+            correct += 1
+            skipped += 1
+            continue
+
         adversarial_label = np.argmax(fmodel.predictions(adversarial_image))
         print('adversarial class',adversarial_label, labels[adversarial_label])
 
@@ -256,7 +266,7 @@ for attack in attacks:
         print (correct, 'out of ', img+1)
         print ('Total time elapsed: ', int((time.time()-begin)/60), 'mins')
 
-    print ('Summary of attack', attack.name, ': total correct ', correct-skipped, 'out of ', 100-skipped)
+    print ('Summary of attack', attack.name(), ': total correct ', correct-skipped, 'out of ', 100-skipped)
 
 
 # out_np = torch_to_np(net(net_input))
