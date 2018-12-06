@@ -1,16 +1,16 @@
 
 # coding: utf-8
 
-# Exploring deep priors of adversarial images by Sourabh Kulkarni and Pradeep Ambati.
+# Deep Protection by Sourabh Kulkarni and Pradeep Ambati.
 # 
 # - Import clean image examples from imagenet
 # - Apply adversarial preturbations
 # - Pass through deep image prior based denoiser
 # - Compare adversarial and denoised images
-# - Use pretrained alexnet classifier to predict classes
+# - Use pretrained resnet18 classifier to predict classes
 # 
 # Note: To see overfitting set `num_iter` to a large value.
-# Original code from: https://github.com/DmitryUlyanov/deep-image-prior
+# Original code borrowed from: https://github.com/DmitryUlyanov/deep-image-prior
 
 # # Import libs
 
@@ -54,7 +54,7 @@ LABELS_URL = 'https://s3.amazonaws.com/outcome-blog/imagenet/labels.json'
 response = requests.get(LABELS_URL)  # Make an HTTP GET request and store the response.
 labels = {int(key): value for key, value in response.json().items()}
 
-# Get 25 ImageNet validation images, preprocess them for foolbox
+# Get 100 ImageNet validation images, preprocess them for foolbox
 
 X, y, class_names = load_imagenet_val(num=100)
 X = X / 255
@@ -73,15 +73,6 @@ mean = np.array([0.485, 0.456, 0.406]).reshape((3, 1, 1))
 std = np.array([0.229, 0.224, 0.225]).reshape((3, 1, 1))
 fmodel = foolbox.models.PyTorchModel(
     resnet18, bounds=(0, 1), num_classes=1000, preprocessing=(mean, std))
-
-
-#attack = foolbox.attacks.FGSM(fmodel)
-# attack = foolbox.attacks.AdditiveGaussianNoiseAttack(fmodel)
-# attack = foolbox.attacks.BlendedUniformNoiseAttack(fmodel)
-# attack = foolbox.attacks.GaussianBlurAttack(fmodel)
-# attack = foolbox.attacks.NewtonFoolAttack(model=fmodel)
-
-
 
 def closure():
     
@@ -263,6 +254,7 @@ for attack in attacks:
 
         p = get_params(OPT_OVER, net, net_input)
         optimize(OPTIMIZER, p, closure, LR, num_iter)
+        
         print (correct, 'out of ', img+1)
         print ('Total time elapsed: ', int((time.time()-begin)/60), 'mins')
 
