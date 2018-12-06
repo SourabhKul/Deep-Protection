@@ -4,9 +4,12 @@ import matplotlib.pyplot as plt
 means, std, variance = [], [], []
 iterations = []
 ranks = []
-with open('./output100_parsed.txt') as fin:
+
+# attacks = ["Gradient Sign", "Additive Gaussian Noise", "Blended Uniform Noise", "Gaussian Blur", "NewtonFool", \
+#      "Gradient Sign", "DeepFoolAttack", "CarliniWagnerL2Attack", "SaltAndPepperNoiseAttack"]
+with open('./newbatch_parsed.txt') as fin:
     for line in fin:
-        if "<bound method Attack.name of" in line:
+        if "Summary of attack" in line:
             # plt.hist(ranks, bins=5)
             # plt.show()
             iterations = np.array(iterations)
