@@ -1,0 +1,1648 @@
+GPU(s) detected: GeForce GTX 970M
+Data type float32 Image Classes:
+813 , spatula
+813 , spatula
+813 , spatula
+813 , spatula
+724 , pirate, pirate ship
+724 , pirate, pirate ship
+724 , pirate, pirate ship
+724 , pirate, pirate ship
+294 , brown bear, bruin, Ursus arctos
+294 , brown bear, bruin, Ursus arctos
+294 , brown bear, bruin, Ursus arctos
+294 , brown bear, bruin, Ursus arctos
+975 , lakeside, lakeshore
+975 , lakeside, lakeshore
+975 , lakeside, lakeshore
+975 , lakeside, lakeshore
+244 , Tibetan mastiff
+244 , Tibetan mastiff
+244 , Tibetan mastiff
+244 , Tibetan mastiff
+946 , cardoon
+946 , cardoon
+946 , cardoon
+946 , cardoon
+817 , sports car, sport car
+817 , sports car, sport car
+817 , sports car, sport car
+817 , sports car, sport car
+985 , daisy
+985 , daisy
+985 , daisy
+985 , daisy
+697 , pajama, pyjama, pj's, jammies
+697 , pajama, pyjama, pj's, jammies
+697 , pajama, pyjama, pj's, jammies
+697 , pajama, pyjama, pj's, jammies
+182 , Border terrier
+182 , Border terrier
+182 , Border terrier
+182 , Border terrier
+958 , hay
+958 , hay
+958 , hay
+958 , hay
+824 , stole
+824 , stole
+824 , stole
+824 , stole
+366 , gorilla, Gorilla gorilla
+366 , gorilla, Gorilla gorilla
+366 , gorilla, Gorilla gorilla
+366 , gorilla, Gorilla gorilla
+812 , space shuttle
+812 , space shuttle
+812 , space shuttle
+812 , space shuttle
+804 , soap dispenser
+804 , soap dispenser
+804 , soap dispenser
+804 , soap dispenser
+231 , collie
+231 , collie
+231 , collie
+231 , collie
+883 , vase
+883 , vase
+883 , vase
+883 , vase
+92 , bee eater
+92 , bee eater
+92 , bee eater
+92 , bee eater
+877 , turnstile
+877 , turnstile
+877 , turnstile
+877 , turnstile
+264 , Cardigan, Cardigan Welsh corgi
+264 , Cardigan, Cardigan Welsh corgi
+264 , Cardigan, Cardigan Welsh corgi
+264 , Cardigan, Cardigan Welsh corgi
+662 , modem
+662 , modem
+662 , modem
+662 , modem
+999 , toilet tissue, toilet paper, bathroom tissue
+999 , toilet tissue, toilet paper, bathroom tissue
+999 , toilet tissue, toilet paper, bathroom tissue
+999 , toilet tissue, toilet paper, bathroom tissue
+100 , black swan, Cygnus atratus
+100 , black swan, Cygnus atratus
+100 , black swan, Cygnus atratus
+100 , black swan, Cygnus atratus
+496 , Christmas stocking
+496 , Christmas stocking
+496 , Christmas stocking
+496 , Christmas stocking
+85 , quail
+85 , quail
+85 , quail
+85 , quail
+Begin attack ADefAttack
+predicted class 499 cleaver, meat cleaver, chopper 813
+Prediction falied, skipping...
+predicted class 813 spatula 813
+adversarial class 764 rifle
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 971 bubble
+Iteration 00000    Loss 0.214607 resnet18 prediction for current iteration: 279 Arctic fox, white fox, Alopex lagopus
+Iteration 00050    Loss 0.012642 Non-adversarial prior obtained at iteration 50 top 2 /5
+2 out of  2
+Total time elapsed:  0 mins
+predicted class 926 hot pot, hotpot 813
+Prediction falied, skipping...
+predicted class 767 rubber eraser, rubber, pencil eraser 813
+Prediction falied, skipping...
+predicted class 724 pirate, pirate ship 724
+adversarial class 449 boathouse
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 971 bubble
+Iteration 00000    Loss 0.109716 resnet18 prediction for current iteration: 59 vine snake
+Iteration 00050    Loss 0.021537 resnet18 prediction for current iteration: 375 colobus, colobus monkey
+Iteration 00100    Loss 0.017217 resnet18 prediction for current iteration: 375 colobus, colobus monkey
+Iteration 00150    Loss 0.015878 resnet18 prediction for current iteration: 384 indri, indris, Indri indri, Indri brevicaudatus
+Iteration 00200    Loss 0.014723 resnet18 prediction for current iteration: 369 siamang, Hylobates syndactylus, Symphalangus syndactylus
+Iteration 00250    Loss 0.014005 resnet18 prediction for current iteration: 384 indri, indris, Indri indri, Indri brevicaudatus
+Iteration 00300    Loss 0.013583 resnet18 prediction for current iteration: 975 lakeside, lakeshore
+Iteration 00350    Loss 0.013071 resnet18 prediction for current iteration: 369 siamang, Hylobates syndactylus, Symphalangus syndactylus
+Iteration 00400    Loss 0.012682 resnet18 prediction for current iteration: 574 golf ball
+Iteration 00450    Loss 0.012282 resnet18 prediction for current iteration: 975 lakeside, lakeshore
+Iteration 00500    Loss 0.011978 resnet18 prediction for current iteration: 975 lakeside, lakeshore
+Iteration 00550    Loss 0.011621 resnet18 prediction for current iteration: 975 lakeside, lakeshore
+Iteration 00600    Loss 0.011477 resnet18 prediction for current iteration: 975 lakeside, lakeshore
+Iteration 00650    Loss 0.011354 resnet18 prediction for current iteration: 562 fountain
+Iteration 00700    Loss 0.010947 resnet18 prediction for current iteration: 562 fountain
+Iteration 00750    Loss 0.010787 resnet18 prediction for current iteration: 562 fountain
+Iteration 00800    Loss 0.010580 resnet18 prediction for current iteration: 975 lakeside, lakeshore
+Iteration 00850    Loss 0.010235 resnet18 prediction for current iteration: 135 limpkin, Aramus pictus
+Iteration 00900    Loss 0.010105 resnet18 prediction for current iteration: 438 beaker
+Iteration 00950    Loss 0.009896 resnet18 prediction for current iteration: 562 fountain
+Iteration 01000    Loss 0.009707 resnet18 prediction for current iteration: 975 lakeside, lakeshore
+Iteration 01050    Loss 0.009487 resnet18 prediction for current iteration: 975 lakeside, lakeshore
+Iteration 01100    Loss 0.009326 resnet18 prediction for current iteration: 975 lakeside, lakeshore
+Iteration 01150    Loss 0.009093 resnet18 prediction for current iteration: 975 lakeside, lakeshore
+Iteration 01200    Loss 0.008899 resnet18 prediction for current iteration: 975 lakeside, lakeshore
+Iteration 01250    Loss 0.008770 resnet18 prediction for current iteration: 975 lakeside, lakeshore
+Iteration 01300    Loss 0.008529 resnet18 prediction for current iteration: 975 lakeside, lakeshore
+Iteration 01350    Loss 0.008311 resnet18 prediction for current iteration: 975 lakeside, lakeshore
+Iteration 01400    Loss 0.008162 resnet18 prediction for current iteration: 975 lakeside, lakeshore
+Iteration 01450    Loss 0.007860 resnet18 prediction for current iteration: 975 lakeside, lakeshore
+Iteration 01500    Loss 0.007676 resnet18 prediction for current iteration: 975 lakeside, lakeshore
+Iteration 01550    Loss 0.007478 resnet18 prediction for current iteration: 975 lakeside, lakeshore
+Iteration 01600    Loss 0.007315 resnet18 prediction for current iteration: 975 lakeside, lakeshore
+Iteration 01650    Loss 0.007167 resnet18 prediction for current iteration: 975 lakeside, lakeshore
+Iteration 01700    Loss 0.006971 resnet18 prediction for current iteration: 449 boathouse
+Iteration 01750    Loss 0.006846 resnet18 prediction for current iteration: 975 lakeside, lakeshore
+Iteration 01800    Loss 0.006607 resnet18 prediction for current iteration: 975 lakeside, lakeshore
+Iteration 01850    Loss 0.006522 Non-adversarial prior obtained at iteration 1850 top 2 /5
+5 out of  5
+Total time elapsed:  3 mins
+predicted class 724 pirate, pirate ship 724
+adversarial class 536 dock, dockage, docking facility
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 946 cardoon
+Iteration 00000    Loss 0.075563 resnet18 prediction for current iteration: 644 matchstick
+Iteration 00050    Loss 0.026637 resnet18 prediction for current iteration: 567 frying pan, frypan, skillet
+Iteration 00100    Loss 0.022331 resnet18 prediction for current iteration: 126 isopod
+Iteration 00150    Loss 0.019879 resnet18 prediction for current iteration: 143 oystercatcher, oyster catcher
+Iteration 00200    Loss 0.017529 resnet18 prediction for current iteration: 143 oystercatcher, oyster catcher
+Iteration 00250    Loss 0.016294 resnet18 prediction for current iteration: 80 black grouse
+Iteration 00300    Loss 0.014808 resnet18 prediction for current iteration: 143 oystercatcher, oyster catcher
+Iteration 00350    Loss 0.014066 Non-adversarial prior obtained at iteration 350 top 4 /5
+6 out of  6
+Total time elapsed:  4 mins
+predicted class 724 pirate, pirate ship 724
+adversarial class 975 lakeside, lakeshore
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 107 jellyfish
+Iteration 00000    Loss 0.031425 resnet18 prediction for current iteration: 623 letter opener, paper knife, paperknife
+Iteration 00050    Loss 0.011514 resnet18 prediction for current iteration: 148 killer whale, killer, orca, grampus, sea wolf, Orcinus orca
+Iteration 00100    Loss 0.009101 resnet18 prediction for current iteration: 148 killer whale, killer, orca, grampus, sea wolf, Orcinus orca
+Iteration 00150    Loss 0.008552 resnet18 prediction for current iteration: 357 mink
+Iteration 00200    Loss 0.008293 resnet18 prediction for current iteration: 146 albatross, mollymawk
+Iteration 00250    Loss 0.007917 resnet18 prediction for current iteration: 148 killer whale, killer, orca, grampus, sea wolf, Orcinus orca
+Iteration 00300    Loss 0.007555 resnet18 prediction for current iteration: 148 killer whale, killer, orca, grampus, sea wolf, Orcinus orca
+Iteration 00350    Loss 0.007137 resnet18 prediction for current iteration: 146 albatross, mollymawk
+Iteration 00400    Loss 0.006856 resnet18 prediction for current iteration: 146 albatross, mollymawk
+Iteration 00450    Loss 0.006590 resnet18 prediction for current iteration: 488 chain
+Iteration 00500    Loss 0.006171 resnet18 prediction for current iteration: 749 quill, quill pen
+Iteration 00550    Loss 0.005893 resnet18 prediction for current iteration: 807 solar dish, solar collector, solar furnace
+Iteration 00600    Loss 0.005700 resnet18 prediction for current iteration: 772 safety pin
+Iteration 00650    Loss 0.005408 resnet18 prediction for current iteration: 807 solar dish, solar collector, solar furnace
+Iteration 00700    Loss 0.005320 resnet18 prediction for current iteration: 772 safety pin
+Iteration 00750    Loss 0.005099 resnet18 prediction for current iteration: 712 Petri dish
+Iteration 00800    Loss 0.004900 resnet18 prediction for current iteration: 772 safety pin
+Iteration 00850    Loss 0.004689 resnet18 prediction for current iteration: 772 safety pin
+Iteration 00900    Loss 0.004585 resnet18 prediction for current iteration: 772 safety pin
+Iteration 00950    Loss 0.004441 resnet18 prediction for current iteration: 554 fireboat
+Iteration 01000    Loss 0.004259 resnet18 prediction for current iteration: 554 fireboat
+Iteration 01050    Loss 0.004112 Non-adversarial prior obtained at iteration 1050 top 5 /5
+7 out of  7
+Total time elapsed:  6 mins
+predicted class 724 pirate, pirate ship 724
+adversarial class 628 liner, ocean liner
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 111 nematode, nematode worm, roundworm
+Iteration 00000    Loss 0.082994 resnet18 prediction for current iteration: 392 rock beauty, Holocanthus tricolor
+Iteration 00050    Loss 0.016177 resnet18 prediction for current iteration: 148 killer whale, killer, orca, grampus, sea wolf, Orcinus orca
+Iteration 00100    Loss 0.011252 resnet18 prediction for current iteration: 148 killer whale, killer, orca, grampus, sea wolf, Orcinus orca
+Iteration 00150    Loss 0.008917 resnet18 prediction for current iteration: 148 killer whale, killer, orca, grampus, sea wolf, Orcinus orca
+Iteration 00200    Loss 0.007906 resnet18 prediction for current iteration: 148 killer whale, killer, orca, grampus, sea wolf, Orcinus orca
+Iteration 00250    Loss 0.007204 resnet18 prediction for current iteration: 812 space shuttle
+Iteration 00300    Loss 0.006666 resnet18 prediction for current iteration: 148 killer whale, killer, orca, grampus, sea wolf, Orcinus orca
+Iteration 00350    Loss 0.006234 resnet18 prediction for current iteration: 438 beaker
+Iteration 00400    Loss 0.005605 resnet18 prediction for current iteration: 804 soap dispenser
+Iteration 00450    Loss 0.005250 resnet18 prediction for current iteration: 812 space shuttle
+Iteration 00500    Loss 0.005053 resnet18 prediction for current iteration: 438 beaker
+Iteration 00550    Loss 0.004664 resnet18 prediction for current iteration: 438 beaker
+Iteration 00600    Loss 0.004448 resnet18 prediction for current iteration: 438 beaker
+Iteration 00650    Loss 0.004200 resnet18 prediction for current iteration: 626 lighter, light, igniter, ignitor
+Iteration 00700    Loss 0.004038 resnet18 prediction for current iteration: 871 trimaran
+Iteration 00750    Loss 0.003900 resnet18 prediction for current iteration: 438 beaker
+Iteration 00800    Loss 0.003734 resnet18 prediction for current iteration: 438 beaker
+Iteration 00850    Loss 0.003584 resnet18 prediction for current iteration: 871 trimaran
+Iteration 00900    Loss 0.003379 resnet18 prediction for current iteration: 871 trimaran
+Iteration 00950    Loss 0.003305 resnet18 prediction for current iteration: 871 trimaran
+Iteration 01000    Loss 0.003148 resnet18 prediction for current iteration: 871 trimaran
+Iteration 01050    Loss 0.003061 resnet18 prediction for current iteration: 871 trimaran
+Iteration 01100    Loss 0.002900 resnet18 prediction for current iteration: 871 trimaran
+Iteration 01150    Loss 0.002867 Non-adversarial prior obtained at iteration 1150 top 5 /5
+8 out of  8
+Total time elapsed:  8 mins
+predicted class 294 brown bear, bruin, Ursus arctos 294
+adversarial class 296 ice bear, polar bear, Ursus Maritimus, Thalarctos maritimus
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 1 goldfish, Carassius auratus
+Iteration 00000    Loss 0.069043 resnet18 prediction for current iteration: 236 Doberman, Doberman pinscher
+Iteration 00050    Loss 0.025394 Non-adversarial prior obtained at iteration 50 top 5 /5
+9 out of  9
+Total time elapsed:  8 mins
+predicted class 294 brown bear, bruin, Ursus arctos 294
+Attack Failed, skipping...
+predicted class 294 brown bear, bruin, Ursus arctos 294
+adversarial class 297 sloth bear, Melursus ursinus, Ursus ursinus
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 1 goldfish, Carassius auratus
+Iteration 00000    Loss 0.051837 resnet18 prediction for current iteration: 164 bluetick
+Iteration 00050    Loss 0.014568 resnet18 prediction for current iteration: 241 EntleBucher
+Iteration 00100    Loss 0.011713 resnet18 prediction for current iteration: 297 sloth bear, Melursus ursinus, Ursus ursinus
+Iteration 00150    Loss 0.010395 resnet18 prediction for current iteration: 297 sloth bear, Melursus ursinus, Ursus ursinus
+Iteration 00200    Loss 0.009952 resnet18 prediction for current iteration: 370 guenon, guenon monkey
+Iteration 00250    Loss 0.009412 resnet18 prediction for current iteration: 374 langur
+Iteration 00300    Loss 0.009195 resnet18 prediction for current iteration: 294 brown bear, bruin, Ursus arctos
+Iteration 00350    Loss 0.008698 Non-adversarial prior obtained at iteration 350 top 1 /5
+11 out of  11
+Total time elapsed:  10 mins
+predicted class 294 brown bear, bruin, Ursus arctos 294
+Attack Failed, skipping...
+predicted class 472 canoe 975
+Prediction falied, skipping...
+predicted class 975 lakeside, lakeshore 975
+adversarial class 703 park bench
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 14 indigo bunting, indigo finch, indigo bird, Passerina cyanea
+Iteration 00000    Loss 0.149807 resnet18 prediction for current iteration: 369 siamang, Hylobates syndactylus, Symphalangus syndactylus
+Iteration 00050    Loss 0.032953 resnet18 prediction for current iteration: 946 cardoon
+Iteration 00100    Loss 0.023155 resnet18 prediction for current iteration: 95 jacamar
+Iteration 00150    Loss 0.018799 resnet18 prediction for current iteration: 135 limpkin, Aramus pictus
+Iteration 00200    Loss 0.017468 resnet18 prediction for current iteration: 135 limpkin, Aramus pictus
+Iteration 00250    Loss 0.016431 resnet18 prediction for current iteration: 135 limpkin, Aramus pictus
+Iteration 00300    Loss 0.015316 resnet18 prediction for current iteration: 943 cucumber, cuke
+Iteration 00350    Loss 0.014682 resnet18 prediction for current iteration: 943 cucumber, cuke
+Iteration 00400    Loss 0.013883 resnet18 prediction for current iteration: 936 head cabbage
+Iteration 00450    Loss 0.013239 resnet18 prediction for current iteration: 943 cucumber, cuke
+Iteration 00500    Loss 0.012754 resnet18 prediction for current iteration: 990 buckeye, horse chestnut, conker
+Iteration 00550    Loss 0.012409 resnet18 prediction for current iteration: 943 cucumber, cuke
+Iteration 00600    Loss 0.011820 resnet18 prediction for current iteration: 943 cucumber, cuke
+Iteration 00650    Loss 0.011296 resnet18 prediction for current iteration: 943 cucumber, cuke
+Iteration 00700    Loss 0.010609 resnet18 prediction for current iteration: 943 cucumber, cuke
+Iteration 00750    Loss 0.009927 resnet18 prediction for current iteration: 943 cucumber, cuke
+Iteration 00800    Loss 0.009472 Non-adversarial prior obtained at iteration 800 top 5 /5
+14 out of  14
+Total time elapsed:  12 mins
+predicted class 975 lakeside, lakeshore 975
+adversarial class 460 breakwater, groin, groyne, mole, bulwark, seawall, jetty
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 14 indigo bunting, indigo finch, indigo bird, Passerina cyanea
+Iteration 00000    Loss 0.140384 resnet18 prediction for current iteration: 684 ocarina, sweet potato
+Iteration 00050    Loss 0.013720 resnet18 prediction for current iteration: 147 grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus
+Iteration 00100    Loss 0.009946 resnet18 prediction for current iteration: 147 grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus
+Iteration 00150    Loss 0.008781 resnet18 prediction for current iteration: 147 grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus
+Iteration 00200    Loss 0.007597 resnet18 prediction for current iteration: 148 killer whale, killer, orca, grampus, sea wolf, Orcinus orca
+Iteration 00250    Loss 0.006936 resnet18 prediction for current iteration: 148 killer whale, killer, orca, grampus, sea wolf, Orcinus orca
+Iteration 00300    Loss 0.006595 resnet18 prediction for current iteration: 148 killer whale, killer, orca, grampus, sea wolf, Orcinus orca
+Iteration 00350    Loss 0.006188 resnet18 prediction for current iteration: 148 killer whale, killer, orca, grampus, sea wolf, Orcinus orca
+Iteration 00400    Loss 0.005956 Non-adversarial prior obtained at iteration 400 top 4 /5
+15 out of  15
+Total time elapsed:  13 mins
+predicted class 646 maze, labyrinth 975
+Prediction falied, skipping...
+predicted class 247 Saint Bernard, St Bernard 244
+Prediction falied, skipping...
+predicted class 244 Tibetan mastiff 244
+adversarial class 234 Rottweiler
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 364 three-toed sloth, ai, Bradypus tridactylus
+Iteration 00000    Loss 0.134588 resnet18 prediction for current iteration: 633 loupe, jeweler's loupe
+Iteration 00050    Loss 0.037155 resnet18 prediction for current iteration: 275 African hunting dog, hyena dog, Cape hunting dog, Lycaon pictus
+Iteration 00100    Loss 0.027097 resnet18 prediction for current iteration: 275 African hunting dog, hyena dog, Cape hunting dog, Lycaon pictus
+Iteration 00150    Loss 0.022240 resnet18 prediction for current iteration: 275 African hunting dog, hyena dog, Cape hunting dog, Lycaon pictus
+Iteration 00200    Loss 0.019234 resnet18 prediction for current iteration: 235 German shepherd, German shepherd dog, German police dog, alsatian
+Iteration 00250    Loss 0.015679 resnet18 prediction for current iteration: 241 EntleBucher
+Iteration 00300    Loss 0.013362 resnet18 prediction for current iteration: 165 black-and-tan coonhound
+Iteration 00350    Loss 0.011806 resnet18 prediction for current iteration: 165 black-and-tan coonhound
+Iteration 00400    Loss 0.010837 resnet18 prediction for current iteration: 164 bluetick
+Iteration 00450    Loss 0.010075 resnet18 prediction for current iteration: 237 miniature pinscher
+Iteration 00500    Loss 0.009661 resnet18 prediction for current iteration: 165 black-and-tan coonhound
+Iteration 00550    Loss 0.009025 resnet18 prediction for current iteration: 165 black-and-tan coonhound
+Iteration 00600    Loss 0.008542 resnet18 prediction for current iteration: 165 black-and-tan coonhound
+Iteration 00650    Loss 0.008179 Non-adversarial prior obtained at iteration 650 top 2 /5
+18 out of  18
+Total time elapsed:  14 mins
+predicted class 256 Newfoundland, Newfoundland dog 244
+Prediction falied, skipping...
+predicted class 244 Tibetan mastiff 244
+adversarial class 214 Gordon setter
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 794 shower curtain
+Iteration 00000    Loss 0.108199 resnet18 prediction for current iteration: 901 whiskey jug
+Iteration 00050    Loss 0.022617 resnet18 prediction for current iteration: 167 English foxhound
+Iteration 00100    Loss 0.011892 resnet18 prediction for current iteration: 167 English foxhound
+Iteration 00150    Loss 0.009356 resnet18 prediction for current iteration: 80 black grouse
+Iteration 00200    Loss 0.007708 resnet18 prediction for current iteration: 488 chain
+Iteration 00250    Loss 0.005838 resnet18 prediction for current iteration: 488 chain
+Iteration 00300    Loss 0.005133 resnet18 prediction for current iteration: 803 snowplow, snowplough
+Iteration 00350    Loss 0.004261 resnet18 prediction for current iteration: 803 snowplow, snowplough
+Iteration 00400    Loss 0.003897 resnet18 prediction for current iteration: 167 English foxhound
+Iteration 00450    Loss 0.003413 resnet18 prediction for current iteration: 359 black-footed ferret, ferret, Mustela nigripes
+Iteration 00500    Loss 0.003058 resnet18 prediction for current iteration: 162 beagle
+Iteration 00550    Loss 0.002797 resnet18 prediction for current iteration: 240 Appenzeller
+Iteration 00600    Loss 0.002442 resnet18 prediction for current iteration: 374 langur
+Iteration 00650    Loss 0.002228 resnet18 prediction for current iteration: 241 EntleBucher
+Iteration 00700    Loss 0.002144 resnet18 prediction for current iteration: 240 Appenzeller
+Iteration 00750    Loss 0.001990 resnet18 prediction for current iteration: 241 EntleBucher
+Iteration 00800    Loss 0.001896 resnet18 prediction for current iteration: 151 Chihuahua
+Iteration 00850    Loss 0.001815 resnet18 prediction for current iteration: 241 EntleBucher
+Iteration 00900    Loss 0.001730 resnet18 prediction for current iteration: 241 EntleBucher
+Iteration 00950    Loss 0.001671 resnet18 prediction for current iteration: 241 EntleBucher
+Iteration 01000    Loss 0.001644 resnet18 prediction for current iteration: 241 EntleBucher
+Iteration 01050    Loss 0.001540 resnet18 prediction for current iteration: 241 EntleBucher
+Iteration 01100    Loss 0.001502 resnet18 prediction for current iteration: 241 EntleBucher
+Iteration 01150    Loss 0.001440 resnet18 prediction for current iteration: 241 EntleBucher
+Iteration 01200    Loss 0.001364 resnet18 prediction for current iteration: 241 EntleBucher
+Iteration 01250    Loss 0.001317 resnet18 prediction for current iteration: 241 EntleBucher
+Iteration 01300    Loss 0.001276 resnet18 prediction for current iteration: 241 EntleBucher
+Iteration 01350    Loss 0.001245 Non-adversarial prior obtained at iteration 1350 top 5 /5
+20 out of  20
+Total time elapsed:  16 mins
+predicted class 946 cardoon 946
+adversarial class 944 artichoke, globe artichoke
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 1 goldfish, Carassius auratus
+Iteration 00000    Loss 0.067798 resnet18 prediction for current iteration: 310 ant, emmet, pismire
+Iteration 00050    Loss 0.024885 Non-adversarial prior obtained at iteration 50 top 2 /5
+21 out of  21
+Total time elapsed:  17 mins
+predicted class 946 cardoon 946
+adversarial class 328 sea urchin
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 111 nematode, nematode worm, roundworm
+Iteration 00000    Loss 0.121110 resnet18 prediction for current iteration: 241 EntleBucher
+Iteration 00050    Loss 0.061749 resnet18 prediction for current iteration: 946 cardoon
+Iteration 00100    Loss 0.054005 Non-adversarial prior obtained at iteration 100 top 1 /5
+22 out of  22
+Total time elapsed:  17 mins
+predicted class 946 cardoon 946
+adversarial class 944 artichoke, globe artichoke
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 392 rock beauty, Holocanthus tricolor
+Iteration 00000    Loss 0.053629 resnet18 prediction for current iteration: 986 yellow lady's slipper, yellow lady-slipper, Cypripedium calceolus, Cypripedium parviflorum
+Iteration 00050    Loss 0.019170 Non-adversarial prior obtained at iteration 50 top 4 /5
+23 out of  23
+Total time elapsed:  17 mins
+predicted class 946 cardoon 946
+adversarial class 328 sea urchin
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 984 rapeseed
+Iteration 00000    Loss 0.113634 resnet18 prediction for current iteration: 644 matchstick
+Iteration 00050    Loss 0.035027 resnet18 prediction for current iteration: 167 English foxhound
+Iteration 00100    Loss 0.031524 resnet18 prediction for current iteration: 946 cardoon
+Iteration 00150    Loss 0.028515 Non-adversarial prior obtained at iteration 150 top 1 /5
+24 out of  24
+Total time elapsed:  17 mins
+predicted class 511 convertible 817
+Prediction falied, skipping...
+predicted class 656 minivan 817
+Prediction falied, skipping...
+predicted class 817 sports car, sport car 817
+adversarial class 511 convertible
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 1 goldfish, Carassius auratus
+Iteration 00000    Loss 0.110389 resnet18 prediction for current iteration: 641 maraca
+Iteration 00050    Loss 0.041476 resnet18 prediction for current iteration: 714 pick, plectrum, plectron
+Iteration 00100    Loss 0.029012 resnet18 prediction for current iteration: 796 ski mask
+Iteration 00150    Loss 0.021998 resnet18 prediction for current iteration: 573 go-kart
+Iteration 00200    Loss 0.019942 resnet18 prediction for current iteration: 678 neck brace
+Iteration 00250    Loss 0.016345 resnet18 prediction for current iteration: 676 muzzle
+Iteration 00300    Loss 0.015273 resnet18 prediction for current iteration: 676 muzzle
+Iteration 00350    Loss 0.014373 resnet18 prediction for current iteration: 796 ski mask
+Iteration 00400    Loss 0.013333 resnet18 prediction for current iteration: 518 crash helmet
+Iteration 00450    Loss 0.012485 Non-adversarial prior obtained at iteration 450 top 4 /5
+27 out of  27
+Total time elapsed:  18 mins
+predicted class 751 racer, race car, racing car 817
+Prediction falied, skipping...
+predicted class 985 daisy 985
+adversarial class 818 spotlight, spot
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 111 nematode, nematode worm, roundworm
+Iteration 00000    Loss 0.108741 resnet18 prediction for current iteration: 948 Granny Smith
+Iteration 00050    Loss 0.036789 resnet18 prediction for current iteration: 985 daisy
+Iteration 00100    Loss 0.022852 Non-adversarial prior obtained at iteration 100 top 1 /5
+29 out of  29
+Total time elapsed:  18 mins
+predicted class 985 daisy 985
+adversarial class 984 rapeseed
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 95 jacamar
+Iteration 00000    Loss 0.125525 resnet18 prediction for current iteration: 29 axolotl, mud puppy, Ambystoma mexicanum
+Iteration 00050    Loss 0.040794 resnet18 prediction for current iteration: 985 daisy
+Iteration 00100    Loss 0.029691 Non-adversarial prior obtained at iteration 100 top 1 /5
+30 out of  30
+Total time elapsed:  19 mins
+predicted class 985 daisy 985
+adversarial class 326 lycaenid, lycaenid butterfly
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 1 goldfish, Carassius auratus
+Iteration 00000    Loss 0.183256 resnet18 prediction for current iteration: 722 ping-pong ball
+Iteration 00050    Loss 0.020167 resnet18 prediction for current iteration: 761 remote control, remote
+Iteration 00100    Loss 0.011955 resnet18 prediction for current iteration: 574 golf ball
+Iteration 00150    Loss 0.008496 Non-adversarial prior obtained at iteration 150 top 3 /5
+31 out of  31
+Total time elapsed:  19 mins
+predicted class 985 daisy 985
+adversarial class 324 cabbage butterfly
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 971 bubble
+Iteration 00000    Loss 0.083219 resnet18 prediction for current iteration: 375 colobus, colobus monkey
+Iteration 00050    Loss 0.021854 resnet18 prediction for current iteration: 374 langur
+Iteration 00100    Loss 0.016329 resnet18 prediction for current iteration: 684 ocarina, sweet potato
+Iteration 00150    Loss 0.011911 resnet18 prediction for current iteration: 956 custard apple
+Iteration 00200    Loss 0.009398 resnet18 prediction for current iteration: 397 puffer, pufferfish, blowfish, globefish
+Iteration 00250    Loss 0.008172 resnet18 prediction for current iteration: 988 acorn
+Iteration 00300    Loss 0.007334 resnet18 prediction for current iteration: 988 acorn
+Iteration 00350    Loss 0.005866 resnet18 prediction for current iteration: 988 acorn
+Iteration 00400    Loss 0.005185 Non-adversarial prior obtained at iteration 400 top 5 /5
+32 out of  32
+Total time elapsed:  20 mins
+predicted class 697 pajama, pyjama, pj's, jammies 697
+adversarial class 614 kimono
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 710 pencil sharpener
+Iteration 00000    Loss 0.056003 resnet18 prediction for current iteration: 488 chain
+Iteration 00050    Loss 0.021495 resnet18 prediction for current iteration: 494 chime, bell, gong
+Iteration 00100    Loss 0.012740 resnet18 prediction for current iteration: 494 chime, bell, gong
+Iteration 00150    Loss 0.010503 resnet18 prediction for current iteration: 677 nail
+Iteration 00200    Loss 0.008166 resnet18 prediction for current iteration: 416 balance beam, beam
+Iteration 00250    Loss 0.006604 resnet18 prediction for current iteration: 416 balance beam, beam
+Iteration 00300    Loss 0.005411 resnet18 prediction for current iteration: 416 balance beam, beam
+Iteration 00350    Loss 0.004653 Non-adversarial prior obtained at iteration 350 top 3 /5
+33 out of  33
+Total time elapsed:  20 mins
+predicted class 490 chain mail, ring mail, mail, chain armor, chain armour, ring armor, ring armour 697
+Prediction falied, skipping...
+predicted class 697 pajama, pyjama, pj's, jammies 697
+adversarial class 611 jigsaw puzzle
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 58 water snake
+Iteration 00000    Loss 0.062715 resnet18 prediction for current iteration: 567 frying pan, frypan, skillet
+Iteration 00050    Loss 0.019390 resnet18 prediction for current iteration: 567 frying pan, frypan, skillet
+Iteration 00100    Loss 0.014909 resnet18 prediction for current iteration: 148 killer whale, killer, orca, grampus, sea wolf, Orcinus orca
+Iteration 00150    Loss 0.012902 resnet18 prediction for current iteration: 602 horizontal bar, high bar
+Iteration 00200    Loss 0.011425 resnet18 prediction for current iteration: 80 black grouse
+Iteration 00250    Loss 0.010710 resnet18 prediction for current iteration: 164 bluetick
+Iteration 00300    Loss 0.010099 resnet18 prediction for current iteration: 34 leatherback turtle, leatherback, leathery turtle, Dermochelys coriacea
+Iteration 00350    Loss 0.009263 resnet18 prediction for current iteration: 34 leatherback turtle, leatherback, leathery turtle, Dermochelys coriacea
+Iteration 00400    Loss 0.008719 resnet18 prediction for current iteration: 34 leatherback turtle, leatherback, leathery turtle, Dermochelys coriacea
+Iteration 00450    Loss 0.008315 resnet18 prediction for current iteration: 34 leatherback turtle, leatherback, leathery turtle, Dermochelys coriacea
+Iteration 00500    Loss 0.007823 resnet18 prediction for current iteration: 514 cowboy boot
+Iteration 00550    Loss 0.007299 resnet18 prediction for current iteration: 340 zebra
+Iteration 00600    Loss 0.006893 resnet18 prediction for current iteration: 747 punching bag, punch bag, punching ball, punchball
+Iteration 00650    Loss 0.006557 resnet18 prediction for current iteration: 430 basketball
+Iteration 00700    Loss 0.006373 resnet18 prediction for current iteration: 702 parallel bars, bars
+Iteration 00750    Loss 0.005986 resnet18 prediction for current iteration: 430 basketball
+Iteration 00800    Loss 0.005804 resnet18 prediction for current iteration: 702 parallel bars, bars
+Iteration 00850    Loss 0.005583 resnet18 prediction for current iteration: 430 basketball
+Iteration 00900    Loss 0.005328 resnet18 prediction for current iteration: 430 basketball
+Iteration 00950    Loss 0.005161 resnet18 prediction for current iteration: 416 balance beam, beam
+Iteration 01000    Loss 0.005055 resnet18 prediction for current iteration: 430 basketball
+Iteration 01050    Loss 0.004739 Non-adversarial prior obtained at iteration 1050 top 4 /5
+35 out of  35
+Total time elapsed:  22 mins
+predicted class 697 pajama, pyjama, pj's, jammies 697
+adversarial class 614 kimono
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 21 kite
+Iteration 00000    Loss 0.109977 resnet18 prediction for current iteration: 375 colobus, colobus monkey
+Iteration 00050    Loss 0.022645 resnet18 prediction for current iteration: 341 hog, pig, grunter, squealer, Sus scrofa
+Iteration 00100    Loss 0.015205 resnet18 prediction for current iteration: 416 balance beam, beam
+Iteration 00150    Loss 0.012998 resnet18 prediction for current iteration: 384 indri, indris, Indri indri, Indri brevicaudatus
+Iteration 00200    Loss 0.011158 resnet18 prediction for current iteration: 384 indri, indris, Indri indri, Indri brevicaudatus
+Iteration 00250    Loss 0.010453 resnet18 prediction for current iteration: 429 baseball
+Iteration 00300    Loss 0.010208 resnet18 prediction for current iteration: 995 earthstar
+Iteration 00350    Loss 0.009392 resnet18 prediction for current iteration: 988 acorn
+Iteration 00400    Loss 0.008991 resnet18 prediction for current iteration: 988 acorn
+Iteration 00450    Loss 0.008596 resnet18 prediction for current iteration: 988 acorn
+Iteration 00500    Loss 0.008505 resnet18 prediction for current iteration: 862 torch
+Iteration 00550    Loss 0.008097 resnet18 prediction for current iteration: 862 torch
+Iteration 00600    Loss 0.007551 resnet18 prediction for current iteration: 430 basketball
+Iteration 00650    Loss 0.007265 resnet18 prediction for current iteration: 430 basketball
+Iteration 00700    Loss 0.006962 resnet18 prediction for current iteration: 862 torch
+Iteration 00750    Loss 0.006511 Non-adversarial prior obtained at iteration 750 top 2 /5
+36 out of  36
+Total time elapsed:  24 mins
+predicted class 182 Border terrier 182
+adversarial class 189 Lakeland terrier
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 448 birdhouse
+Iteration 00000    Loss 0.042343 resnet18 prediction for current iteration: 494 chime, bell, gong
+Iteration 00050    Loss 0.025559 resnet18 prediction for current iteration: 68 sidewinder, horned rattlesnake, Crotalus cerastes
+Iteration 00100    Loss 0.019654 resnet18 prediction for current iteration: 280 grey fox, gray fox, Urocyon cinereoargenteus
+Iteration 00150    Loss 0.016183 resnet18 prediction for current iteration: 413 assault rifle, assault gun
+Iteration 00200    Loss 0.013261 resnet18 prediction for current iteration: 413 assault rifle, assault gun
+Iteration 00250    Loss 0.011159 resnet18 prediction for current iteration: 278 kit fox, Vulpes macrotis
+Iteration 00300    Loss 0.009831 resnet18 prediction for current iteration: 51 triceratops
+Iteration 00350    Loss 0.008820 resnet18 prediction for current iteration: 494 chime, bell, gong
+Iteration 00400    Loss 0.008328 resnet18 prediction for current iteration: 208 Labrador retriever
+Iteration 00450    Loss 0.007722 resnet18 prediction for current iteration: 208 Labrador retriever
+Iteration 00500    Loss 0.007201 resnet18 prediction for current iteration: 208 Labrador retriever
+Iteration 00550    Loss 0.006683 resnet18 prediction for current iteration: 208 Labrador retriever
+Iteration 00600    Loss 0.006171 resnet18 prediction for current iteration: 208 Labrador retriever
+Iteration 00650    Loss 0.005824 resnet18 prediction for current iteration: 208 Labrador retriever
+Iteration 00700    Loss 0.005502 resnet18 prediction for current iteration: 208 Labrador retriever
+Iteration 00750    Loss 0.005090 resnet18 prediction for current iteration: 208 Labrador retriever
+Iteration 00800    Loss 0.004838 resnet18 prediction for current iteration: 208 Labrador retriever
+Iteration 00850    Loss 0.004646 resnet18 prediction for current iteration: 208 Labrador retriever
+Iteration 00900    Loss 0.004308 resnet18 prediction for current iteration: 151 Chihuahua
+Iteration 00950    Loss 0.004112 resnet18 prediction for current iteration: 208 Labrador retriever
+Iteration 01000    Loss 0.003997 resnet18 prediction for current iteration: 208 Labrador retriever
+Iteration 01050    Loss 0.003866 resnet18 prediction for current iteration: 208 Labrador retriever
+Iteration 01100    Loss 0.003771 resnet18 prediction for current iteration: 208 Labrador retriever
+Iteration 01150    Loss 0.003594 resnet18 prediction for current iteration: 208 Labrador retriever
+Iteration 01200    Loss 0.003483 resnet18 prediction for current iteration: 208 Labrador retriever
+Iteration 01250    Loss 0.003456 resnet18 prediction for current iteration: 208 Labrador retriever
+Iteration 01300    Loss 0.003387 resnet18 prediction for current iteration: 208 Labrador retriever
+Iteration 01350    Loss 0.003183 resnet18 prediction for current iteration: 208 Labrador retriever
+Iteration 01400    Loss 0.003153 resnet18 prediction for current iteration: 208 Labrador retriever
+Iteration 01450    Loss 0.003034 resnet18 prediction for current iteration: 208 Labrador retriever
+Iteration 01500    Loss 0.003009 resnet18 prediction for current iteration: 208 Labrador retriever
+Iteration 01550    Loss 0.002911 resnet18 prediction for current iteration: 208 Labrador retriever
+Iteration 01600    Loss 0.002804 resnet18 prediction for current iteration: 208 Labrador retriever
+Iteration 01650    Loss 0.002716 resnet18 prediction for current iteration: 208 Labrador retriever
+Iteration 01700    Loss 0.002640 resnet18 prediction for current iteration: 246 Great Dane
+Iteration 01750    Loss 0.002612 resnet18 prediction for current iteration: 208 Labrador retriever
+Iteration 01800    Loss 0.002590 resnet18 prediction for current iteration: 246 Great Dane
+Iteration 01850    Loss 0.002581 Non-adversarial prior obtained at iteration 1850 top 5 /5
+37 out of  37
+Total time elapsed:  27 mins
+predicted class 182 Border terrier 182
+adversarial class 385 Indian elephant, Elephas maximus
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 611 jigsaw puzzle
+Iteration 00000    Loss 0.103437 resnet18 prediction for current iteration: 166 Walker hound, Walker foxhound
+Iteration 00050    Loss 0.013668 resnet18 prediction for current iteration: 297 sloth bear, Melursus ursinus, Ursus ursinus
+Iteration 00100    Loss 0.009346 resnet18 prediction for current iteration: 220 Sussex spaniel
+Iteration 00150    Loss 0.007993 resnet18 prediction for current iteration: 103 platypus, duckbill, duckbilled platypus, duck-billed platypus, Ornithorhynchus anatinus
+Iteration 00200    Loss 0.006712 resnet18 prediction for current iteration: 358 polecat, fitch, foulmart, foumart, Mustela putorius
+Iteration 00250    Loss 0.006356 resnet18 prediction for current iteration: 377 marmoset
+Iteration 00300    Loss 0.005711 resnet18 prediction for current iteration: 306 rhinoceros beetle
+Iteration 00350    Loss 0.005136 resnet18 prediction for current iteration: 377 marmoset
+Iteration 00400    Loss 0.004744 resnet18 prediction for current iteration: 126 isopod
+Iteration 00450    Loss 0.004545 resnet18 prediction for current iteration: 275 African hunting dog, hyena dog, Cape hunting dog, Lycaon pictus
+Iteration 00500    Loss 0.004318 resnet18 prediction for current iteration: 103 platypus, duckbill, duckbilled platypus, duck-billed platypus, Ornithorhynchus anatinus
+Iteration 00550    Loss 0.004157 resnet18 prediction for current iteration: 360 otter
+Iteration 00600    Loss 0.004075 resnet18 prediction for current iteration: 294 brown bear, bruin, Ursus arctos
+Iteration 00650    Loss 0.003757 resnet18 prediction for current iteration: 150 sea lion
+Iteration 00700    Loss 0.003734 resnet18 prediction for current iteration: 294 brown bear, bruin, Ursus arctos
+Iteration 00750    Loss 0.003562 resnet18 prediction for current iteration: 294 brown bear, bruin, Ursus arctos
+Iteration 00800    Loss 0.003548 resnet18 prediction for current iteration: 168 redbone
+Iteration 00850    Loss 0.003446 resnet18 prediction for current iteration: 150 sea lion
+Iteration 00900    Loss 0.003341 resnet18 prediction for current iteration: 243 bull mastiff
+Iteration 00950    Loss 0.003255 resnet18 prediction for current iteration: 243 bull mastiff
+Iteration 01000    Loss 0.003154 resnet18 prediction for current iteration: 150 sea lion
+Iteration 01050    Loss 0.003078 resnet18 prediction for current iteration: 150 sea lion
+Iteration 01100    Loss 0.002999 resnet18 prediction for current iteration: 243 bull mastiff
+Iteration 01150    Loss 0.002967 resnet18 prediction for current iteration: 286 cougar, puma, catamount, mountain lion, painter, panther, Felis concolor
+Iteration 01200    Loss 0.002943 resnet18 prediction for current iteration: 202 soft-coated wheaten terrier
+Iteration 01250    Loss 0.002827 Non-adversarial prior obtained at iteration 1250 top 4 /5
+38 out of  38
+Total time elapsed:  30 mins
+predicted class 170 Irish wolfhound 182
+Prediction falied, skipping...
+predicted class 265 toy poodle 182
+Prediction falied, skipping...
+predicted class 958 hay 958
+adversarial class 410 apiary, bee house
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 1 goldfish, Carassius auratus
+Iteration 00000    Loss 0.045390 resnet18 prediction for current iteration: 812 space shuttle
+Iteration 00050    Loss 0.014493 resnet18 prediction for current iteration: 942 butternut squash
+Iteration 00100    Loss 0.010757 resnet18 prediction for current iteration: 145 king penguin, Aptenodytes patagonica
+Iteration 00150    Loss 0.009717 resnet18 prediction for current iteration: 291 lion, king of beasts, Panthera leo
+Iteration 00200    Loss 0.008938 resnet18 prediction for current iteration: 677 nail
+Iteration 00250    Loss 0.008667 Non-adversarial prior obtained at iteration 250 top 4 /5
+41 out of  41
+Total time elapsed:  30 mins
+predicted class 958 hay 958
+adversarial class 425 barn
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 1 goldfish, Carassius auratus
+Iteration 00000    Loss 0.071551 resnet18 prediction for current iteration: 339 sorrel
+Iteration 00050    Loss 0.032427 resnet18 prediction for current iteration: 386 African elephant, Loxodonta africana
+Iteration 00100    Loss 0.027948 resnet18 prediction for current iteration: 386 African elephant, Loxodonta africana
+Iteration 00150    Loss 0.026503 resnet18 prediction for current iteration: 764 rifle
+Iteration 00200    Loss 0.026026 resnet18 prediction for current iteration: 978 seashore, coast, seacoast, sea-coast
+Iteration 00250    Loss 0.024985 resnet18 prediction for current iteration: 150 sea lion
+Iteration 00300    Loss 0.024284 resnet18 prediction for current iteration: 150 sea lion
+Iteration 00350    Loss 0.024014 resnet18 prediction for current iteration: 500 cliff dwelling
+Iteration 00400    Loss 0.023481 resnet18 prediction for current iteration: 150 sea lion
+Iteration 00450    Loss 0.023106 resnet18 prediction for current iteration: 150 sea lion
+Iteration 00500    Loss 0.022740 resnet18 prediction for current iteration: 500 cliff dwelling
+Iteration 00550    Loss 0.022524 resnet18 prediction for current iteration: 500 cliff dwelling
+Iteration 00600    Loss 0.021867 resnet18 prediction for current iteration: 972 cliff, drop, drop-off
+Iteration 00650    Loss 0.021287 resnet18 prediction for current iteration: 150 sea lion
+Iteration 00700    Loss 0.020803 resnet18 prediction for current iteration: 972 cliff, drop, drop-off
+Iteration 00750    Loss 0.020221 resnet18 prediction for current iteration: 858 tile roof
+Iteration 00800    Loss 0.019687 resnet18 prediction for current iteration: 500 cliff dwelling
+Iteration 00850    Loss 0.018833 resnet18 prediction for current iteration: 972 cliff, drop, drop-off
+Iteration 00900    Loss 0.018005 resnet18 prediction for current iteration: 972 cliff, drop, drop-off
+Iteration 00950    Loss 0.017590 resnet18 prediction for current iteration: 972 cliff, drop, drop-off
+Iteration 01000    Loss 0.016789 Non-adversarial prior obtained at iteration 1000 top 5 /5
+42 out of  42
+Total time elapsed:  32 mins
+predicted class 958 hay 958
+adversarial class 562 fountain
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 392 rock beauty, Holocanthus tricolor
+Iteration 00000    Loss 0.117099 resnet18 prediction for current iteration: 168 redbone
+Iteration 00050    Loss 0.040285 resnet18 prediction for current iteration: 345 ox
+Iteration 00100    Loss 0.027766 resnet18 prediction for current iteration: 677 nail
+Iteration 00150    Loss 0.020633 resnet18 prediction for current iteration: 974 geyser
+Iteration 00200    Loss 0.015168 resnet18 prediction for current iteration: 351 hartebeest
+Iteration 00250    Loss 0.014153 resnet18 prediction for current iteration: 728 plastic bag
+Iteration 00300    Loss 0.013519 resnet18 prediction for current iteration: 351 hartebeest
+Iteration 00350    Loss 0.013263 resnet18 prediction for current iteration: 350 ibex, Capra ibex
+Iteration 00400    Loss 0.012968 resnet18 prediction for current iteration: 350 ibex, Capra ibex
+Iteration 00450    Loss 0.012704 resnet18 prediction for current iteration: 350 ibex, Capra ibex
+Iteration 00500    Loss 0.012709 resnet18 prediction for current iteration: 351 hartebeest
+Iteration 00550    Loss 0.012445 resnet18 prediction for current iteration: 345 ox
+Iteration 00600    Loss 0.012331 resnet18 prediction for current iteration: 350 ibex, Capra ibex
+Iteration 00650    Loss 0.012132 resnet18 prediction for current iteration: 350 ibex, Capra ibex
+Iteration 00700    Loss 0.011892 resnet18 prediction for current iteration: 350 ibex, Capra ibex
+Iteration 00750    Loss 0.011884 resnet18 prediction for current iteration: 350 ibex, Capra ibex
+Iteration 00800    Loss 0.011767 resnet18 prediction for current iteration: 350 ibex, Capra ibex
+Iteration 00850    Loss 0.011697 resnet18 prediction for current iteration: 350 ibex, Capra ibex
+Iteration 00900    Loss 0.011493 resnet18 prediction for current iteration: 350 ibex, Capra ibex
+Iteration 00950    Loss 0.011406 resnet18 prediction for current iteration: 350 ibex, Capra ibex
+Iteration 01000    Loss 0.011254 resnet18 prediction for current iteration: 350 ibex, Capra ibex
+Iteration 01050    Loss 0.011140 resnet18 prediction for current iteration: 350 ibex, Capra ibex
+Iteration 01100    Loss 0.011050 resnet18 prediction for current iteration: 143 oystercatcher, oyster catcher
+Iteration 01150    Loss 0.010888 resnet18 prediction for current iteration: 961 dough
+Iteration 01200    Loss 0.010820 resnet18 prediction for current iteration: 961 dough
+Iteration 01250    Loss 0.010800 resnet18 prediction for current iteration: 350 ibex, Capra ibex
+Iteration 01300    Loss 0.010555 Non-adversarial prior obtained at iteration 1300 top 3 /5
+43 out of  43
+Total time elapsed:  35 mins
+predicted class 958 hay 958
+adversarial class 853 thatch, thatched roof
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 885 velvet
+Iteration 00000    Loss 0.037228 resnet18 prediction for current iteration: 969 eggnog
+Iteration 00050    Loss 0.011733 resnet18 prediction for current iteration: 167 English foxhound
+Iteration 00100    Loss 0.009943 resnet18 prediction for current iteration: 150 sea lion
+Iteration 00150    Loss 0.008594 resnet18 prediction for current iteration: 296 ice bear, polar bear, Ursus Maritimus, Thalarctos maritimus
+Iteration 00200    Loss 0.007740 resnet18 prediction for current iteration: 291 lion, king of beasts, Panthera leo
+Iteration 00250    Loss 0.007170 resnet18 prediction for current iteration: 291 lion, king of beasts, Panthera leo
+Iteration 00300    Loss 0.007022 resnet18 prediction for current iteration: 291 lion, king of beasts, Panthera leo
+Iteration 00350    Loss 0.006837 resnet18 prediction for current iteration: 350 ibex, Capra ibex
+Iteration 00400    Loss 0.006627 resnet18 prediction for current iteration: 350 ibex, Capra ibex
+Iteration 00450    Loss 0.006393 resnet18 prediction for current iteration: 350 ibex, Capra ibex
+Iteration 00500    Loss 0.006257 resnet18 prediction for current iteration: 350 ibex, Capra ibex
+Iteration 00550    Loss 0.006160 resnet18 prediction for current iteration: 350 ibex, Capra ibex
+Iteration 00600    Loss 0.006105 resnet18 prediction for current iteration: 350 ibex, Capra ibex
+Iteration 00650    Loss 0.005875 resnet18 prediction for current iteration: 350 ibex, Capra ibex
+Iteration 00700    Loss 0.005776 resnet18 prediction for current iteration: 291 lion, king of beasts, Panthera leo
+Iteration 00750    Loss 0.005650 resnet18 prediction for current iteration: 291 lion, king of beasts, Panthera leo
+Iteration 00800    Loss 0.005538 resnet18 prediction for current iteration: 353 gazelle
+Iteration 00850    Loss 0.005421 resnet18 prediction for current iteration: 353 gazelle
+Iteration 00900    Loss 0.005338 resnet18 prediction for current iteration: 353 gazelle
+Iteration 00950    Loss 0.005214 resnet18 prediction for current iteration: 343 warthog
+Iteration 01000    Loss 0.005027 resnet18 prediction for current iteration: 343 warthog
+Iteration 01050    Loss 0.004859 resnet18 prediction for current iteration: 343 warthog
+Iteration 01100    Loss 0.004748 resnet18 prediction for current iteration: 343 warthog
+Iteration 01150    Loss 0.004614 resnet18 prediction for current iteration: 343 warthog
+Iteration 01200    Loss 0.004507 resnet18 prediction for current iteration: 343 warthog
+Iteration 01250    Loss 0.004480 resnet18 prediction for current iteration: 343 warthog
+Iteration 01300    Loss 0.004377 resnet18 prediction for current iteration: 343 warthog
+Iteration 01350    Loss 0.004349 resnet18 prediction for current iteration: 343 warthog
+Iteration 01400    Loss 0.004222 resnet18 prediction for current iteration: 343 warthog
+Iteration 01450    Loss 0.004186 resnet18 prediction for current iteration: 343 warthog
+Iteration 01500    Loss 0.004043 resnet18 prediction for current iteration: 343 warthog
+Iteration 01550    Loss 0.003992 resnet18 prediction for current iteration: 343 warthog
+Iteration 01600    Loss 0.003905 resnet18 prediction for current iteration: 977 sandbar, sand bar
+Iteration 01650    Loss 0.003845 resnet18 prediction for current iteration: 343 warthog
+Iteration 01700    Loss 0.003780 resnet18 prediction for current iteration: 276 hyena, hyaena
+Iteration 01750    Loss 0.003698 resnet18 prediction for current iteration: 977 sandbar, sand bar
+Iteration 01800    Loss 0.003663 resnet18 prediction for current iteration: 974 geyser
+Iteration 01850    Loss 0.003582 resnet18 prediction for current iteration: 974 geyser
+Iteration 01900    Loss 0.003497 resnet18 prediction for current iteration: 974 geyser
+Iteration 01950    Loss 0.003454 resnet18 prediction for current iteration: 977 sandbar, sand bar
+Iteration 02000    Loss 0.003393 resnet18 prediction for current iteration: 977 sandbar, sand bar
+Iteration 02050    Loss 0.003383 resnet18 prediction for current iteration: 977 sandbar, sand bar
+Iteration 02100    Loss 0.003291 resnet18 prediction for current iteration: 977 sandbar, sand bar
+Iteration 02150    Loss 0.003258 resnet18 prediction for current iteration: 977 sandbar, sand bar
+Iteration 02200    Loss 0.003261 resnet18 prediction for current iteration: 977 sandbar, sand bar
+Iteration 02250    Loss 0.003128 resnet18 prediction for current iteration: 977 sandbar, sand bar
+Iteration 02300    Loss 0.003125 resnet18 prediction for current iteration: 977 sandbar, sand bar
+Iteration 02350    Loss 0.003009 resnet18 prediction for current iteration: 977 sandbar, sand bar
+Iteration 02400    Loss 0.002997 resnet18 prediction for current iteration: 977 sandbar, sand bar
+Iteration 02450    Loss 0.002936 resnet18 prediction for current iteration: 977 sandbar, sand bar
+Iteration 02500    Loss 0.002860 resnet18 prediction for current iteration: 977 sandbar, sand bar
+Iteration 02550    Loss 0.002831 resnet18 prediction for current iteration: 977 sandbar, sand bar
+Iteration 02600    Loss 0.002817 Non-adversarial prior obtained at iteration 2600 top 4 /5
+44 out of  44
+Total time elapsed:  39 mins
+predicted class 658 mitten 824
+Prediction falied, skipping...
+predicted class 474 cardigan 824
+Prediction falied, skipping...
+predicted class 824 stole 824
+adversarial class 568 fur coat
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 91 coucal
+Iteration 00000    Loss 0.131303 resnet18 prediction for current iteration: 644 matchstick
+Iteration 00050    Loss 0.030289 resnet18 prediction for current iteration: 644 matchstick
+Iteration 00100    Loss 0.016134 resnet18 prediction for current iteration: 990 buckeye, horse chestnut, conker
+Iteration 00150    Loss 0.012080 resnet18 prediction for current iteration: 990 buckeye, horse chestnut, conker
+Iteration 00200    Loss 0.009827 resnet18 prediction for current iteration: 910 wooden spoon
+Iteration 00250    Loss 0.009077 resnet18 prediction for current iteration: 990 buckeye, horse chestnut, conker
+Iteration 00300    Loss 0.007960 resnet18 prediction for current iteration: 960 chocolate sauce, chocolate syrup
+Iteration 00350    Loss 0.007335 resnet18 prediction for current iteration: 960 chocolate sauce, chocolate syrup
+Iteration 00400    Loss 0.006336 Non-adversarial prior obtained at iteration 400 top 2 /5
+47 out of  47
+Total time elapsed:  40 mins
+predicted class 824 stole 824
+adversarial class 837 sunglasses, dark glasses, shades
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 309 bee
+Iteration 00000    Loss 0.085661 resnet18 prediction for current iteration: 392 rock beauty, Holocanthus tricolor
+Iteration 00050    Loss 0.019188 resnet18 prediction for current iteration: 148 killer whale, killer, orca, grampus, sea wolf, Orcinus orca
+Iteration 00100    Loss 0.011547 resnet18 prediction for current iteration: 392 rock beauty, Holocanthus tricolor
+Iteration 00150    Loss 0.008597 resnet18 prediction for current iteration: 148 killer whale, killer, orca, grampus, sea wolf, Orcinus orca
+Iteration 00200    Loss 0.006831 resnet18 prediction for current iteration: 148 killer whale, killer, orca, grampus, sea wolf, Orcinus orca
+Iteration 00250    Loss 0.005980 resnet18 prediction for current iteration: 819 stage
+Iteration 00300    Loss 0.005306 resnet18 prediction for current iteration: 702 parallel bars, bars
+Iteration 00350    Loss 0.004652 resnet18 prediction for current iteration: 702 parallel bars, bars
+Iteration 00400    Loss 0.004382 resnet18 prediction for current iteration: 702 parallel bars, bars
+Iteration 00450    Loss 0.004150 resnet18 prediction for current iteration: 836 sunglass
+Iteration 00500    Loss 0.003683 resnet18 prediction for current iteration: 400 academic gown, academic robe, judge's robe
+Iteration 00550    Loss 0.003442 resnet18 prediction for current iteration: 836 sunglass
+Iteration 00600    Loss 0.003325 resnet18 prediction for current iteration: 836 sunglass
+Iteration 00650    Loss 0.003189 resnet18 prediction for current iteration: 65 sea snake
+Iteration 00700    Loss 0.002956 resnet18 prediction for current iteration: 836 sunglass
+Iteration 00750    Loss 0.002815 resnet18 prediction for current iteration: 836 sunglass
+Iteration 00800    Loss 0.002704 resnet18 prediction for current iteration: 836 sunglass
+Iteration 00850    Loss 0.002625 resnet18 prediction for current iteration: 836 sunglass
+Iteration 00900    Loss 0.002514 resnet18 prediction for current iteration: 836 sunglass
+Iteration 00950    Loss 0.002421 resnet18 prediction for current iteration: 836 sunglass
+Iteration 01000    Loss 0.002219 resnet18 prediction for current iteration: 836 sunglass
+Iteration 01050    Loss 0.002172 resnet18 prediction for current iteration: 836 sunglass
+Iteration 01100    Loss 0.002161 resnet18 prediction for current iteration: 836 sunglass
+Iteration 01150    Loss 0.002032 resnet18 prediction for current iteration: 836 sunglass
+Iteration 01200    Loss 0.001982 resnet18 prediction for current iteration: 836 sunglass
+Iteration 01250    Loss 0.001944 resnet18 prediction for current iteration: 836 sunglass
+Iteration 01300    Loss 0.001839 resnet18 prediction for current iteration: 836 sunglass
+Iteration 01350    Loss 0.001784 resnet18 prediction for current iteration: 836 sunglass
+Iteration 01400    Loss 0.001722 resnet18 prediction for current iteration: 836 sunglass
+Iteration 01450    Loss 0.001666 resnet18 prediction for current iteration: 836 sunglass
+Iteration 01500    Loss 0.001578 resnet18 prediction for current iteration: 836 sunglass
+Iteration 01550    Loss 0.001539 resnet18 prediction for current iteration: 836 sunglass
+Iteration 01600    Loss 0.001496 resnet18 prediction for current iteration: 836 sunglass
+Iteration 01650    Loss 0.001453 resnet18 prediction for current iteration: 836 sunglass
+Iteration 01700    Loss 0.001412 resnet18 prediction for current iteration: 836 sunglass
+Iteration 01750    Loss 0.001377 resnet18 prediction for current iteration: 836 sunglass
+Iteration 01800    Loss 0.001357 resnet18 prediction for current iteration: 836 sunglass
+Iteration 01850    Loss 0.001326 resnet18 prediction for current iteration: 836 sunglass
+Iteration 01900    Loss 0.001339 resnet18 prediction for current iteration: 836 sunglass
+Iteration 01950    Loss 0.001270 resnet18 prediction for current iteration: 836 sunglass
+Iteration 02000    Loss 0.001289 resnet18 prediction for current iteration: 836 sunglass
+Iteration 02050    Loss 0.001227 resnet18 prediction for current iteration: 836 sunglass
+Iteration 02100    Loss 0.001236 resnet18 prediction for current iteration: 836 sunglass
+Iteration 02150    Loss 0.001164 resnet18 prediction for current iteration: 836 sunglass
+Iteration 02200    Loss 0.001162 resnet18 prediction for current iteration: 836 sunglass
+Iteration 02250    Loss 0.001108 resnet18 prediction for current iteration: 836 sunglass
+Iteration 02300    Loss 0.001104 resnet18 prediction for current iteration: 836 sunglass
+Iteration 02350    Loss 0.001104 resnet18 prediction for current iteration: 836 sunglass
+Iteration 02400    Loss 0.001057 resnet18 prediction for current iteration: 836 sunglass
+Iteration 02450    Loss 0.001035 resnet18 prediction for current iteration: 836 sunglass
+Iteration 02500    Loss 0.001048 resnet18 prediction for current iteration: 836 sunglass
+Iteration 02550    Loss 0.001066 resnet18 prediction for current iteration: 836 sunglass
+Iteration 02600    Loss 0.001009 resnet18 prediction for current iteration: 836 sunglass
+Iteration 02650    Loss 0.001004 resnet18 prediction for current iteration: 836 sunglass
+Iteration 02700    Loss 0.000982 resnet18 prediction for current iteration: 836 sunglass
+Iteration 02750    Loss 0.000956 resnet18 prediction for current iteration: 836 sunglass
+Iteration 02800    Loss 0.000997 resnet18 prediction for current iteration: 836 sunglass
+Iteration 02850    Loss 0.000928 resnet18 prediction for current iteration: 836 sunglass
+Iteration 02900    Loss 0.000944 resnet18 prediction for current iteration: 836 sunglass
+Iteration 02950    Loss 0.000910 47 out of  48
+Total time elapsed:  46 mins
+predicted class 738 pot, flowerpot 366
+Prediction falied, skipping...
+predicted class 366 gorilla, Gorilla gorilla 366
+adversarial class 295 American black bear, black bear, Ursus americanus, Euarctos americanus
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 971 bubble
+Iteration 00000    Loss 0.075757 resnet18 prediction for current iteration: 369 siamang, Hylobates syndactylus, Symphalangus syndactylus
+Iteration 00050    Loss 0.011587 resnet18 prediction for current iteration: 399 abaya
+Iteration 00100    Loss 0.008564 resnet18 prediction for current iteration: 399 abaya
+Iteration 00150    Loss 0.006314 resnet18 prediction for current iteration: 166 Walker hound, Walker foxhound
+Iteration 00200    Loss 0.005277 resnet18 prediction for current iteration: 80 black grouse
+Iteration 00250    Loss 0.004753 resnet18 prediction for current iteration: 148 killer whale, killer, orca, grampus, sea wolf, Orcinus orca
+Iteration 00300    Loss 0.004505 resnet18 prediction for current iteration: 223 schipperke
+Iteration 00350    Loss 0.003756 resnet18 prediction for current iteration: 223 schipperke
+Iteration 00400    Loss 0.003704 resnet18 prediction for current iteration: 253 basenji
+Iteration 00450    Loss 0.003419 resnet18 prediction for current iteration: 179 Staffordshire bullterrier, Staffordshire bull terrier
+Iteration 00500    Loss 0.003333 resnet18 prediction for current iteration: 253 basenji
+Iteration 00550    Loss 0.003094 resnet18 prediction for current iteration: 80 black grouse
+Iteration 00600    Loss 0.002995 resnet18 prediction for current iteration: 179 Staffordshire bullterrier, Staffordshire bull terrier
+Iteration 00650    Loss 0.002892 resnet18 prediction for current iteration: 80 black grouse
+Iteration 00700    Loss 0.002793 resnet18 prediction for current iteration: 295 American black bear, black bear, Ursus americanus, Euarctos americanus
+Iteration 00750    Loss 0.002638 resnet18 prediction for current iteration: 366 gorilla, Gorilla gorilla
+Iteration 00800    Loss 0.002531 Non-adversarial prior obtained at iteration 800 top 1 /5
+49 out of  50
+Total time elapsed:  47 mins
+predicted class 366 gorilla, Gorilla gorilla 366
+adversarial class 286 cougar, puma, catamount, mountain lion, painter, panther, Felis concolor
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 111 nematode, nematode worm, roundworm
+Iteration 00000    Loss 0.058841 resnet18 prediction for current iteration: 166 Walker hound, Walker foxhound
+Iteration 00050    Loss 0.034077 resnet18 prediction for current iteration: 80 black grouse
+Iteration 00100    Loss 0.031417 resnet18 prediction for current iteration: 80 black grouse
+Iteration 00150    Loss 0.029201 resnet18 prediction for current iteration: 366 gorilla, Gorilla gorilla
+Iteration 00200    Loss 0.027987 Non-adversarial prior obtained at iteration 200 top 1 /5
+50 out of  51
+Total time elapsed:  48 mins
+predicted class 366 gorilla, Gorilla gorilla 366
+adversarial class 205 flat-coated retriever
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 16 bulbul
+Iteration 00000    Loss 0.055297 resnet18 prediction for current iteration: 152 Japanese spaniel
+Iteration 00050    Loss 0.019840 resnet18 prediction for current iteration: 714 pick, plectrum, plectron
+Iteration 00100    Loss 0.012056 resnet18 prediction for current iteration: 384 indri, indris, Indri indri, Indri brevicaudatus
+Iteration 00150    Loss 0.010724 resnet18 prediction for current iteration: 183 Kerry blue terrier
+Iteration 00200    Loss 0.009687 resnet18 prediction for current iteration: 210 German short-haired pointer
+Iteration 00250    Loss 0.009156 resnet18 prediction for current iteration: 375 colobus, colobus monkey
+Iteration 00300    Loss 0.008502 resnet18 prediction for current iteration: 375 colobus, colobus monkey
+Iteration 00350    Loss 0.007961 resnet18 prediction for current iteration: 246 Great Dane
+Iteration 00400    Loss 0.007650 resnet18 prediction for current iteration: 246 Great Dane
+Iteration 00450    Loss 0.007431 resnet18 prediction for current iteration: 384 indri, indris, Indri indri, Indri brevicaudatus
+Iteration 00500    Loss 0.007281 resnet18 prediction for current iteration: 384 indri, indris, Indri indri, Indri brevicaudatus
+Iteration 00550    Loss 0.007288 resnet18 prediction for current iteration: 246 Great Dane
+Iteration 00600    Loss 0.006965 Non-adversarial prior obtained at iteration 600 top 3 /5
+51 out of  52
+Total time elapsed:  49 mins
+predicted class 812 space shuttle 812
+adversarial class 833 submarine, pigboat, sub, U-boat
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 128 black stork, Ciconia nigra
+Iteration 00000    Loss 0.124176 resnet18 prediction for current iteration: 633 loupe, jeweler's loupe
+Iteration 00050    Loss 0.037740 resnet18 prediction for current iteration: 633 loupe, jeweler's loupe
+Iteration 00100    Loss 0.026524 resnet18 prediction for current iteration: 604 hourglass
+Iteration 00150    Loss 0.021236 resnet18 prediction for current iteration: 604 hourglass
+Iteration 00200    Loss 0.018498 resnet18 prediction for current iteration: 702 parallel bars, bars
+Iteration 00250    Loss 0.015651 resnet18 prediction for current iteration: 604 hourglass
+Iteration 00300    Loss 0.014455 resnet18 prediction for current iteration: 369 siamang, Hylobates syndactylus, Symphalangus syndactylus
+Iteration 00350    Loss 0.013945 resnet18 prediction for current iteration: 488 chain
+Iteration 00400    Loss 0.012147 resnet18 prediction for current iteration: 488 chain
+Iteration 00450    Loss 0.011417 resnet18 prediction for current iteration: 488 chain
+Iteration 00500    Loss 0.010929 resnet18 prediction for current iteration: 473 can opener, tin opener
+Iteration 00550    Loss 0.010251 resnet18 prediction for current iteration: 488 chain
+Iteration 00600    Loss 0.009714 resnet18 prediction for current iteration: 473 can opener, tin opener
+Iteration 00650    Loss 0.009295 resnet18 prediction for current iteration: 473 can opener, tin opener
+Iteration 00700    Loss 0.008869 resnet18 prediction for current iteration: 488 chain
+Iteration 00750    Loss 0.008194 resnet18 prediction for current iteration: 785 seat belt, seatbelt
+Iteration 00800    Loss 0.008040 resnet18 prediction for current iteration: 423 barber chair
+Iteration 00850    Loss 0.007497 resnet18 prediction for current iteration: 785 seat belt, seatbelt
+Iteration 00900    Loss 0.007088 resnet18 prediction for current iteration: 423 barber chair
+Iteration 00950    Loss 0.006691 resnet18 prediction for current iteration: 423 barber chair
+Iteration 01000    Loss 0.006523 resnet18 prediction for current iteration: 423 barber chair
+Iteration 01050    Loss 0.005799 resnet18 prediction for current iteration: 423 barber chair
+Iteration 01100    Loss 0.005477 resnet18 prediction for current iteration: 423 barber chair
+Iteration 01150    Loss 0.005250 resnet18 prediction for current iteration: 423 barber chair
+Iteration 01200    Loss 0.005040 resnet18 prediction for current iteration: 423 barber chair
+Iteration 01250    Loss 0.004774 resnet18 prediction for current iteration: 423 barber chair
+Iteration 01300    Loss 0.004456 resnet18 prediction for current iteration: 423 barber chair
+Iteration 01350    Loss 0.004262 resnet18 prediction for current iteration: 423 barber chair
+Iteration 01400    Loss 0.004125 resnet18 prediction for current iteration: 423 barber chair
+Iteration 01450    Loss 0.003995 resnet18 prediction for current iteration: 423 barber chair
+Iteration 01500    Loss 0.003777 resnet18 prediction for current iteration: 786 sewing machine
+Iteration 01550    Loss 0.003638 resnet18 prediction for current iteration: 786 sewing machine
+Iteration 01600    Loss 0.003424 resnet18 prediction for current iteration: 786 sewing machine
+Iteration 01650    Loss 0.003276 resnet18 prediction for current iteration: 786 sewing machine
+Iteration 01700    Loss 0.003201 resnet18 prediction for current iteration: 786 sewing machine
+Iteration 01750    Loss 0.003082 resnet18 prediction for current iteration: 786 sewing machine
+Iteration 01800    Loss 0.002959 resnet18 prediction for current iteration: 786 sewing machine
+Iteration 01850    Loss 0.002853 resnet18 prediction for current iteration: 403 aircraft carrier, carrier, flattop, attack aircraft carrier
+Iteration 01900    Loss 0.002770 resnet18 prediction for current iteration: 627 limousine, limo
+Iteration 01950    Loss 0.002648 resnet18 prediction for current iteration: 403 aircraft carrier, carrier, flattop, attack aircraft carrier
+Iteration 02000    Loss 0.002661 resnet18 prediction for current iteration: 786 sewing machine
+Iteration 02050    Loss 0.002570 resnet18 prediction for current iteration: 786 sewing machine
+Iteration 02100    Loss 0.002413 resnet18 prediction for current iteration: 403 aircraft carrier, carrier, flattop, attack aircraft carrier
+Iteration 02150    Loss 0.002355 resnet18 prediction for current iteration: 403 aircraft carrier, carrier, flattop, attack aircraft carrier
+Iteration 02200    Loss 0.002301 resnet18 prediction for current iteration: 403 aircraft carrier, carrier, flattop, attack aircraft carrier
+Iteration 02250    Loss 0.002206 resnet18 prediction for current iteration: 403 aircraft carrier, carrier, flattop, attack aircraft carrier
+Iteration 02300    Loss 0.002160 Non-adversarial prior obtained at iteration 2300 top 5 /5
+52 out of  53
+Total time elapsed:  53 mins
+predicted class 812 space shuttle 812
+adversarial class 628 liner, ocean liner
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 971 bubble
+Iteration 00000    Loss 0.038923 resnet18 prediction for current iteration: 148 killer whale, killer, orca, grampus, sea wolf, Orcinus orca
+Iteration 00050    Loss 0.016097 resnet18 prediction for current iteration: 279 Arctic fox, white fox, Alopex lagopus
+Iteration 00100    Loss 0.013060 resnet18 prediction for current iteration: 812 space shuttle
+Iteration 00150    Loss 0.010511 Non-adversarial prior obtained at iteration 150 top 1 /5
+53 out of  54
+Total time elapsed:  53 mins
+predicted class 812 space shuttle 812
+adversarial class 744 projectile, missile
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 1 goldfish, Carassius auratus
+Iteration 00000    Loss 0.076232 resnet18 prediction for current iteration: 906 Windsor tie
+Iteration 00050    Loss 0.022879 resnet18 prediction for current iteration: 241 EntleBucher
+Iteration 00100    Loss 0.014179 resnet18 prediction for current iteration: 241 EntleBucher
+Iteration 00150    Loss 0.010349 resnet18 prediction for current iteration: 241 EntleBucher
+Iteration 00200    Loss 0.009046 resnet18 prediction for current iteration: 241 EntleBucher
+Iteration 00250    Loss 0.008197 resnet18 prediction for current iteration: 164 bluetick
+Iteration 00300    Loss 0.007438 resnet18 prediction for current iteration: 167 English foxhound
+Iteration 00350    Loss 0.007376 resnet18 prediction for current iteration: 167 English foxhound
+Iteration 00400    Loss 0.006782 resnet18 prediction for current iteration: 891 waffle iron
+Iteration 00450    Loss 0.006485 Non-adversarial prior obtained at iteration 450 top 2 /5
+54 out of  55
+Total time elapsed:  54 mins
+predicted class 562 fountain 812
+Prediction falied, skipping...
+predicted class 804 soap dispenser 804
+adversarial class 899 water jug
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 1 goldfish, Carassius auratus
+Iteration 00000    Loss 0.136516 resnet18 prediction for current iteration: 604 hourglass
+Iteration 00050    Loss 0.023529 resnet18 prediction for current iteration: 984 rapeseed
+Iteration 00100    Loss 0.013954 resnet18 prediction for current iteration: 907 wine bottle
+Iteration 00150    Loss 0.010905 resnet18 prediction for current iteration: 488 chain
+Iteration 00200    Loss 0.009260 resnet18 prediction for current iteration: 844 switch, electric switch, electrical switch
+Iteration 00250    Loss 0.008530 resnet18 prediction for current iteration: 844 switch, electric switch, electrical switch
+Iteration 00300    Loss 0.006887 resnet18 prediction for current iteration: 844 switch, electric switch, electrical switch
+Iteration 00350    Loss 0.006227 resnet18 prediction for current iteration: 784 screwdriver
+Iteration 00400    Loss 0.005799 resnet18 prediction for current iteration: 784 screwdriver
+Iteration 00450    Loss 0.005398 resnet18 prediction for current iteration: 784 screwdriver
+Iteration 00500    Loss 0.004948 resnet18 prediction for current iteration: 784 screwdriver
+Iteration 00550    Loss 0.004597 resnet18 prediction for current iteration: 784 screwdriver
+Iteration 00600    Loss 0.004409 resnet18 prediction for current iteration: 784 screwdriver
+Iteration 00650    Loss 0.004166 Non-adversarial prior obtained at iteration 650 top 5 /5
+56 out of  57
+Total time elapsed:  55 mins
+predicted class 896 washbasin, handbasin, washbowl, lavabo, wash-hand basin 804
+Prediction falied, skipping...
+predicted class 804 soap dispenser 804
+adversarial class 512 corkscrew, bottle screw
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 128 black stork, Ciconia nigra
+Iteration 00000    Loss 0.217302 resnet18 prediction for current iteration: 677 nail
+Iteration 00050    Loss 0.016983 resnet18 prediction for current iteration: 512 corkscrew, bottle screw
+Iteration 00100    Loss 0.007820 resnet18 prediction for current iteration: 512 corkscrew, bottle screw
+Iteration 00150    Loss 0.005049 resnet18 prediction for current iteration: 512 corkscrew, bottle screw
+Iteration 00200    Loss 0.003788 resnet18 prediction for current iteration: 512 corkscrew, bottle screw
+Iteration 00250    Loss 0.003202 resnet18 prediction for current iteration: 512 corkscrew, bottle screw
+Iteration 00300    Loss 0.002809 resnet18 prediction for current iteration: 512 corkscrew, bottle screw
+Iteration 00350    Loss 0.002444 resnet18 prediction for current iteration: 512 corkscrew, bottle screw
+Iteration 00400    Loss 0.002319 resnet18 prediction for current iteration: 512 corkscrew, bottle screw
+Iteration 00450    Loss 0.002134 resnet18 prediction for current iteration: 512 corkscrew, bottle screw
+Iteration 00500    Loss 0.002097 resnet18 prediction for current iteration: 512 corkscrew, bottle screw
+Iteration 00550    Loss 0.001841 resnet18 prediction for current iteration: 512 corkscrew, bottle screw
+Iteration 00600    Loss 0.001772 resnet18 prediction for current iteration: 512 corkscrew, bottle screw
+Iteration 00650    Loss 0.001683 resnet18 prediction for current iteration: 512 corkscrew, bottle screw
+Iteration 00700    Loss 0.001541 resnet18 prediction for current iteration: 512 corkscrew, bottle screw
+Iteration 00750    Loss 0.001447 resnet18 prediction for current iteration: 512 corkscrew, bottle screw
+Iteration 00800    Loss 0.001348 resnet18 prediction for current iteration: 512 corkscrew, bottle screw
+Iteration 00850    Loss 0.001282 resnet18 prediction for current iteration: 512 corkscrew, bottle screw
+Iteration 00900    Loss 0.001167 resnet18 prediction for current iteration: 512 corkscrew, bottle screw
+Iteration 00950    Loss 0.001110 resnet18 prediction for current iteration: 512 corkscrew, bottle screw
+Iteration 01000    Loss 0.001055 resnet18 prediction for current iteration: 512 corkscrew, bottle screw
+Iteration 01050    Loss 0.000999 resnet18 prediction for current iteration: 512 corkscrew, bottle screw
+Iteration 01100    Loss 0.001028 resnet18 prediction for current iteration: 512 corkscrew, bottle screw
+Iteration 01150    Loss 0.000839 resnet18 prediction for current iteration: 512 corkscrew, bottle screw
+Iteration 01200    Loss 0.000836 resnet18 prediction for current iteration: 512 corkscrew, bottle screw
+Iteration 01250    Loss 0.000808 resnet18 prediction for current iteration: 512 corkscrew, bottle screw
+Iteration 01300    Loss 0.000754 resnet18 prediction for current iteration: 804 soap dispenser
+Iteration 01350    Loss 0.000696 Non-adversarial prior obtained at iteration 1350 top 1 /5
+58 out of  59
+Total time elapsed:  58 mins
+predicted class 804 soap dispenser 804
+adversarial class 631 lotion
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 136 European gallinule, Porphyrio porphyrio
+Iteration 00000    Loss 0.116702 resnet18 prediction for current iteration: 241 EntleBucher
+Iteration 00050    Loss 0.018698 resnet18 prediction for current iteration: 152 Japanese spaniel
+Iteration 00100    Loss 0.007777 resnet18 prediction for current iteration: 166 Walker hound, Walker foxhound
+Iteration 00150    Loss 0.005248 resnet18 prediction for current iteration: 167 English foxhound
+Iteration 00200    Loss 0.004323 resnet18 prediction for current iteration: 901 whiskey jug
+Iteration 00250    Loss 0.003464 resnet18 prediction for current iteration: 901 whiskey jug
+Iteration 00300    Loss 0.002498 resnet18 prediction for current iteration: 901 whiskey jug
+Iteration 00350    Loss 0.002028 resnet18 prediction for current iteration: 631 lotion
+Iteration 00400    Loss 0.001541 resnet18 prediction for current iteration: 804 soap dispenser
+Iteration 00450    Loss 0.001363 Non-adversarial prior obtained at iteration 450 top 1 /5
+59 out of  60
+Total time elapsed:  59 mins
+predicted class 232 Border collie 231
+Prediction falied, skipping...
+predicted class 230 Shetland sheepdog, Shetland sheep dog, Shetland 231
+Prediction falied, skipping...
+predicted class 231 collie 231
+adversarial class 230 Shetland sheepdog, Shetland sheep dog, Shetland
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 80 black grouse
+Iteration 00000    Loss 0.059484 resnet18 prediction for current iteration: 901 whiskey jug
+Iteration 00050    Loss 0.012258 resnet18 prediction for current iteration: 152 Japanese spaniel
+Iteration 00100    Loss 0.009455 resnet18 prediction for current iteration: 152 Japanese spaniel
+Iteration 00150    Loss 0.007206 resnet18 prediction for current iteration: 167 English foxhound
+Iteration 00200    Loss 0.006212 resnet18 prediction for current iteration: 152 Japanese spaniel
+Iteration 00250    Loss 0.005541 resnet18 prediction for current iteration: 248 Eskimo dog, husky
+Iteration 00300    Loss 0.004988 resnet18 prediction for current iteration: 176 Saluki, gazelle hound
+Iteration 00350    Loss 0.004782 resnet18 prediction for current iteration: 188 wire-haired fox terrier
+Iteration 00400    Loss 0.004324 resnet18 prediction for current iteration: 230 Shetland sheepdog, Shetland sheep dog, Shetland
+Iteration 00450    Loss 0.004102 resnet18 prediction for current iteration: 293 cheetah, chetah, Acinonyx jubatus
+Iteration 00500    Loss 0.003826 resnet18 prediction for current iteration: 188 wire-haired fox terrier
+Iteration 00550    Loss 0.003629 resnet18 prediction for current iteration: 537 dogsled, dog sled, dog sleigh
+Iteration 00600    Loss 0.003416 resnet18 prediction for current iteration: 176 Saluki, gazelle hound
+Iteration 00650    Loss 0.003300 resnet18 prediction for current iteration: 278 kit fox, Vulpes macrotis
+Iteration 00700    Loss 0.003177 resnet18 prediction for current iteration: 171 Italian greyhound
+Iteration 00750    Loss 0.003049 resnet18 prediction for current iteration: 269 timber wolf, grey wolf, gray wolf, Canis lupus
+Iteration 00800    Loss 0.003044 resnet18 prediction for current iteration: 269 timber wolf, grey wolf, gray wolf, Canis lupus
+Iteration 00850    Loss 0.002888 resnet18 prediction for current iteration: 269 timber wolf, grey wolf, gray wolf, Canis lupus
+Iteration 00900    Loss 0.002682 resnet18 prediction for current iteration: 248 Eskimo dog, husky
+Iteration 00950    Loss 0.002503 resnet18 prediction for current iteration: 269 timber wolf, grey wolf, gray wolf, Canis lupus
+Iteration 01000    Loss 0.002472 resnet18 prediction for current iteration: 171 Italian greyhound
+Iteration 01050    Loss 0.002353 resnet18 prediction for current iteration: 269 timber wolf, grey wolf, gray wolf, Canis lupus
+Iteration 01100    Loss 0.002375 resnet18 prediction for current iteration: 171 Italian greyhound
+Iteration 01150    Loss 0.002241 resnet18 prediction for current iteration: 176 Saluki, gazelle hound
+Iteration 01200    Loss 0.002149 resnet18 prediction for current iteration: 171 Italian greyhound
+Iteration 01250    Loss 0.002133 resnet18 prediction for current iteration: 230 Shetland sheepdog, Shetland sheep dog, Shetland
+Iteration 01300    Loss 0.002083 resnet18 prediction for current iteration: 176 Saluki, gazelle hound
+Iteration 01350    Loss 0.002018 resnet18 prediction for current iteration: 176 Saluki, gazelle hound
+Iteration 01400    Loss 0.001959 Non-adversarial prior obtained at iteration 1400 top 2 /5
+62 out of  63
+Total time elapsed:  61 mins
+predicted class 247 Saint Bernard, St Bernard 231
+Prediction falied, skipping...
+predicted class 883 vase 883
+adversarial class 439 bearskin, busby, shako
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 392 rock beauty, Holocanthus tricolor
+Iteration 00000    Loss 0.082252 resnet18 prediction for current iteration: 901 whiskey jug
+Iteration 00050    Loss 0.021820 resnet18 prediction for current iteration: 901 whiskey jug
+Iteration 00100    Loss 0.012086 resnet18 prediction for current iteration: 901 whiskey jug
+Iteration 00150    Loss 0.007103 resnet18 prediction for current iteration: 901 whiskey jug
+Iteration 00200    Loss 0.005283 Non-adversarial prior obtained at iteration 200 top 4 /5
+64 out of  65
+Total time elapsed:  62 mins
+predicted class 883 vase 883
+adversarial class 799 sliding door
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 971 bubble
+Iteration 00000    Loss 0.094248 resnet18 prediction for current iteration: 813 spatula
+Iteration 00050    Loss 0.013852 resnet18 prediction for current iteration: 901 whiskey jug
+Iteration 00100    Loss 0.009037 Non-adversarial prior obtained at iteration 100 top 3 /5
+65 out of  66
+Total time elapsed:  62 mins
+predicted class 725 pitcher, ewer 883
+Prediction falied, skipping...
+predicted class 738 pot, flowerpot 883
+Prediction falied, skipping...
+predicted class 92 bee eater 92
+adversarial class 95 jacamar
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 530 digital clock
+Iteration 00000    Loss 0.076387 resnet18 prediction for current iteration: 149 dugong, Dugong dugon
+Iteration 00050    Loss 0.018897 resnet18 prediction for current iteration: 149 dugong, Dugong dugon
+Iteration 00100    Loss 0.012121 resnet18 prediction for current iteration: 956 custard apple
+Iteration 00150    Loss 0.009137 resnet18 prediction for current iteration: 376 proboscis monkey, Nasalis larvatus
+Iteration 00200    Loss 0.006555 resnet18 prediction for current iteration: 59 vine snake
+Iteration 00250    Loss 0.004829 resnet18 prediction for current iteration: 95 jacamar
+Iteration 00300    Loss 0.004153 resnet18 prediction for current iteration: 95 jacamar
+Iteration 00350    Loss 0.003493 resnet18 prediction for current iteration: 95 jacamar
+Iteration 00400    Loss 0.003294 resnet18 prediction for current iteration: 92 bee eater
+Iteration 00450    Loss 0.002758 Non-adversarial prior obtained at iteration 450 top 1 /5
+68 out of  69
+Total time elapsed:  63 mins
+predicted class 92 bee eater 92
+adversarial class 94 hummingbird
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 971 bubble
+Iteration 00000    Loss 0.035002 resnet18 prediction for current iteration: 111 nematode, nematode worm, roundworm
+Iteration 00050    Loss 0.013444 resnet18 prediction for current iteration: 21 kite
+Iteration 00100    Loss 0.009785 resnet18 prediction for current iteration: 21 kite
+Iteration 00150    Loss 0.008299 resnet18 prediction for current iteration: 21 kite
+Iteration 00200    Loss 0.006593 resnet18 prediction for current iteration: 988 acorn
+Iteration 00250    Loss 0.005109 resnet18 prediction for current iteration: 988 acorn
+Iteration 00300    Loss 0.004448 resnet18 prediction for current iteration: 988 acorn
+Iteration 00350    Loss 0.003938 Non-adversarial prior obtained at iteration 350 top 2 /5
+69 out of  70
+Total time elapsed:  63 mins
+predicted class 92 bee eater 92
+adversarial class 11 goldfinch, Carduelis carduelis
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 971 bubble
+Iteration 00000    Loss 0.112758 resnet18 prediction for current iteration: 166 Walker hound, Walker foxhound
+Iteration 00050    Loss 0.028979 resnet18 prediction for current iteration: 152 Japanese spaniel
+Iteration 00100    Loss 0.020338 resnet18 prediction for current iteration: 228 komondor
+Iteration 00150    Loss 0.013455 resnet18 prediction for current iteration: 288 leopard, Panthera pardus
+Iteration 00200    Loss 0.010572 resnet18 prediction for current iteration: 384 indri, indris, Indri indri, Indri brevicaudatus
+Iteration 00250    Loss 0.008232 resnet18 prediction for current iteration: 72 black and gold garden spider, Argiope aurantia
+Iteration 00300    Loss 0.006746 resnet18 prediction for current iteration: 92 bee eater
+Iteration 00350    Loss 0.005285 Non-adversarial prior obtained at iteration 350 top 1 /5
+70 out of  71
+Total time elapsed:  64 mins
+predicted class 92 bee eater 92
+Attack Failed, skipping...
+predicted class 791 shopping cart 877
+Prediction falied, skipping...
+predicted class 877 turnstile 877
+adversarial class 743 prison, prison house
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 135 limpkin, Aramus pictus
+Iteration 00000    Loss 0.086790 resnet18 prediction for current iteration: 241 EntleBucher
+Iteration 00050    Loss 0.033264 resnet18 prediction for current iteration: 164 bluetick
+Iteration 00100    Loss 0.029697 resnet18 prediction for current iteration: 165 black-and-tan coonhound
+Iteration 00150    Loss 0.026432 resnet18 prediction for current iteration: 147 grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus
+Iteration 00200    Loss 0.023996 resnet18 prediction for current iteration: 530 digital clock
+Iteration 00250    Loss 0.021653 resnet18 prediction for current iteration: 743 prison, prison house
+Iteration 00300    Loss 0.019374 resnet18 prediction for current iteration: 743 prison, prison house
+Iteration 00350    Loss 0.016531 resnet18 prediction for current iteration: 743 prison, prison house
+Iteration 00400    Loss 0.012709 resnet18 prediction for current iteration: 467 butcher shop, meat market
+Iteration 00450    Loss 0.010889 resnet18 prediction for current iteration: 467 butcher shop, meat market
+Iteration 00500    Loss 0.009665 resnet18 prediction for current iteration: 441 beer glass
+Iteration 00550    Loss 0.008605 resnet18 prediction for current iteration: 743 prison, prison house
+Iteration 00600    Loss 0.007898 resnet18 prediction for current iteration: 438 beaker
+Iteration 00650    Loss 0.007126 Non-adversarial prior obtained at iteration 650 top 5 /5
+73 out of  74
+Total time elapsed:  66 mins
+predicted class 877 turnstile 877
+adversarial class 412 ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 80 black grouse
+Iteration 00000    Loss 0.063797 resnet18 prediction for current iteration: 714 pick, plectrum, plectron
+Iteration 00050    Loss 0.036971 resnet18 prediction for current iteration: 181 Bedlington terrier
+Iteration 00100    Loss 0.032758 resnet18 prediction for current iteration: 335 fox squirrel, eastern fox squirrel, Sciurus niger
+Iteration 00150    Loss 0.030617 resnet18 prediction for current iteration: 148 killer whale, killer, orca, grampus, sea wolf, Orcinus orca
+Iteration 00200    Loss 0.028952 resnet18 prediction for current iteration: 465 bulletproof vest
+Iteration 00250    Loss 0.027661 resnet18 prediction for current iteration: 438 beaker
+Iteration 00300    Loss 0.026359 resnet18 prediction for current iteration: 438 beaker
+Iteration 00350    Loss 0.024691 resnet18 prediction for current iteration: 438 beaker
+Iteration 00400    Loss 0.023210 resnet18 prediction for current iteration: 438 beaker
+Iteration 00450    Loss 0.021552 resnet18 prediction for current iteration: 868 tray
+Iteration 00500    Loss 0.020008 resnet18 prediction for current iteration: 651 microwave, microwave oven
+Iteration 00550    Loss 0.018844 resnet18 prediction for current iteration: 651 microwave, microwave oven
+Iteration 00600    Loss 0.018040 resnet18 prediction for current iteration: 760 refrigerator, icebox
+Iteration 00650    Loss 0.017039 resnet18 prediction for current iteration: 877 turnstile
+Iteration 00700    Loss 0.016459 Non-adversarial prior obtained at iteration 700 top 1 /5
+74 out of  75
+Total time elapsed:  67 mins
+predicted class 877 turnstile 877
+adversarial class 632 loudspeaker, speaker, speaker unit, loudspeaker system, speaker system
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 986 yellow lady's slipper, yellow lady-slipper, Cypripedium calceolus, Cypripedium parviflorum
+Iteration 00000    Loss 0.059314 resnet18 prediction for current iteration: 763 revolver, six-gun, six-shooter
+Iteration 00050    Loss 0.025413 resnet18 prediction for current iteration: 763 revolver, six-gun, six-shooter
+Iteration 00100    Loss 0.020837 resnet18 prediction for current iteration: 351 hartebeest
+Iteration 00150    Loss 0.017311 resnet18 prediction for current iteration: 537 dogsled, dog sled, dog sleigh
+Iteration 00200    Loss 0.013991 resnet18 prediction for current iteration: 392 rock beauty, Holocanthus tricolor
+Iteration 00250    Loss 0.012232 resnet18 prediction for current iteration: 891 waffle iron
+Iteration 00300    Loss 0.010811 resnet18 prediction for current iteration: 891 waffle iron
+Iteration 00350    Loss 0.009703 resnet18 prediction for current iteration: 784 screwdriver
+Iteration 00400    Loss 0.009355 resnet18 prediction for current iteration: 398 abacus
+Iteration 00450    Loss 0.008526 resnet18 prediction for current iteration: 740 power drill
+Iteration 00500    Loss 0.007946 resnet18 prediction for current iteration: 740 power drill
+Iteration 00550    Loss 0.007527 resnet18 prediction for current iteration: 784 screwdriver
+Iteration 00600    Loss 0.006963 resnet18 prediction for current iteration: 784 screwdriver
+Iteration 00650    Loss 0.006745 resnet18 prediction for current iteration: 784 screwdriver
+Iteration 00700    Loss 0.006324 resnet18 prediction for current iteration: 877 turnstile
+Iteration 00750    Loss 0.006014 Non-adversarial prior obtained at iteration 750 top 1 /5
+75 out of  76
+Total time elapsed:  69 mins
+predicted class 162 beagle 264
+Prediction falied, skipping...
+predicted class 264 Cardigan, Cardigan Welsh corgi 264
+adversarial class 174 Norwegian elkhound, elkhound
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 984 rapeseed
+Iteration 00000    Loss 0.100612 resnet18 prediction for current iteration: 488 chain
+Iteration 00050    Loss 0.036035 resnet18 prediction for current iteration: 51 triceratops
+Iteration 00100    Loss 0.024685 resnet18 prediction for current iteration: 143 oystercatcher, oyster catcher
+Iteration 00150    Loss 0.019774 resnet18 prediction for current iteration: 275 African hunting dog, hyena dog, Cape hunting dog, Lycaon pictus
+Iteration 00200    Loss 0.016584 resnet18 prediction for current iteration: 275 African hunting dog, hyena dog, Cape hunting dog, Lycaon pictus
+Iteration 00250    Loss 0.014924 Non-adversarial prior obtained at iteration 250 top 3 /5
+77 out of  78
+Total time elapsed:  69 mins
+predicted class 162 beagle 264
+Prediction falied, skipping...
+predicted class 264 Cardigan, Cardigan Welsh corgi 264
+adversarial class 263 Pembroke, Pembroke Welsh corgi
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 135 limpkin, Aramus pictus
+Iteration 00000    Loss 0.083309 resnet18 prediction for current iteration: 901 whiskey jug
+Iteration 00050    Loss 0.032778 resnet18 prediction for current iteration: 241 EntleBucher
+Iteration 00100    Loss 0.021792 resnet18 prediction for current iteration: 167 English foxhound
+Iteration 00150    Loss 0.018290 resnet18 prediction for current iteration: 253 basenji
+Iteration 00200    Loss 0.015968 resnet18 prediction for current iteration: 253 basenji
+Iteration 00250    Loss 0.014121 resnet18 prediction for current iteration: 253 basenji
+Iteration 00300    Loss 0.013052 Non-adversarial prior obtained at iteration 300 top 4 /5
+79 out of  80
+Total time elapsed:  70 mins
+predicted class 662 modem 662
+adversarial class 481 cassette
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 885 velvet
+Iteration 00000    Loss 0.031080 resnet18 prediction for current iteration: 813 spatula
+Iteration 00050    Loss 0.003781 resnet18 prediction for current iteration: 473 can opener, tin opener
+Iteration 00100    Loss 0.002369 resnet18 prediction for current iteration: 623 letter opener, paper knife, paperknife
+Iteration 00150    Loss 0.002149 resnet18 prediction for current iteration: 473 can opener, tin opener
+Iteration 00200    Loss 0.001735 resnet18 prediction for current iteration: 473 can opener, tin opener
+Iteration 00250    Loss 0.001585 resnet18 prediction for current iteration: 623 letter opener, paper knife, paperknife
+Iteration 00300    Loss 0.001531 resnet18 prediction for current iteration: 473 can opener, tin opener
+Iteration 00350    Loss 0.001172 resnet18 prediction for current iteration: 473 can opener, tin opener
+Iteration 00400    Loss 0.001118 resnet18 prediction for current iteration: 473 can opener, tin opener
+Iteration 00450    Loss 0.001098 resnet18 prediction for current iteration: 473 can opener, tin opener
+Iteration 00500    Loss 0.001020 resnet18 prediction for current iteration: 473 can opener, tin opener
+Iteration 00550    Loss 0.000876 resnet18 prediction for current iteration: 473 can opener, tin opener
+Iteration 00600    Loss 0.000827 resnet18 prediction for current iteration: 473 can opener, tin opener
+Iteration 00650    Loss 0.000781 resnet18 prediction for current iteration: 473 can opener, tin opener
+Iteration 00700    Loss 0.000722 Non-adversarial prior obtained at iteration 700 top 3 /5
+80 out of  81
+Total time elapsed:  71 mins
+predicted class 662 modem 662
+adversarial class 527 desktop computer
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 14 indigo bunting, indigo finch, indigo bird, Passerina cyanea
+Iteration 00000    Loss 0.193585 resnet18 prediction for current iteration: 502 clog, geta, patten, sabot
+Iteration 00050    Loss 0.030471 resnet18 prediction for current iteration: 615 knee pad
+Iteration 00100    Loss 0.016697 resnet18 prediction for current iteration: 615 knee pad
+Iteration 00150    Loss 0.012411 resnet18 prediction for current iteration: 615 knee pad
+Iteration 00200    Loss 0.009444 resnet18 prediction for current iteration: 615 knee pad
+Iteration 00250    Loss 0.009370 resnet18 prediction for current iteration: 831 studio couch, day bed
+Iteration 00300    Loss 0.006574 resnet18 prediction for current iteration: 636 mailbag, postbag
+Iteration 00350    Loss 0.005575 resnet18 prediction for current iteration: 636 mailbag, postbag
+Iteration 00400    Loss 0.005402 resnet18 prediction for current iteration: 636 mailbag, postbag
+Iteration 00450    Loss 0.005356 resnet18 prediction for current iteration: 636 mailbag, postbag
+Iteration 00500    Loss 0.004335 resnet18 prediction for current iteration: 636 mailbag, postbag
+Iteration 00550    Loss 0.004049 resnet18 prediction for current iteration: 632 loudspeaker, speaker, speaker unit, loudspeaker system, speaker system
+Iteration 00600    Loss 0.003750 resnet18 prediction for current iteration: 632 loudspeaker, speaker, speaker unit, loudspeaker system, speaker system
+Iteration 00650    Loss 0.003877 resnet18 prediction for current iteration: 632 loudspeaker, speaker, speaker unit, loudspeaker system, speaker system
+Iteration 00700    Loss 0.003757 resnet18 prediction for current iteration: 636 mailbag, postbag
+Iteration 00750    Loss 0.003343 resnet18 prediction for current iteration: 636 mailbag, postbag
+Iteration 00800    Loss 0.003063 resnet18 prediction for current iteration: 632 loudspeaker, speaker, speaker unit, loudspeaker system, speaker system
+Iteration 00850    Loss 0.003092 resnet18 prediction for current iteration: 632 loudspeaker, speaker, speaker unit, loudspeaker system, speaker system
+Iteration 00900    Loss 0.002936 resnet18 prediction for current iteration: 632 loudspeaker, speaker, speaker unit, loudspeaker system, speaker system
+Iteration 00950    Loss 0.002668 resnet18 prediction for current iteration: 632 loudspeaker, speaker, speaker unit, loudspeaker system, speaker system
+Iteration 01000    Loss 0.002813 resnet18 prediction for current iteration: 632 loudspeaker, speaker, speaker unit, loudspeaker system, speaker system
+Iteration 01050    Loss 0.002542 resnet18 prediction for current iteration: 632 loudspeaker, speaker, speaker unit, loudspeaker system, speaker system
+Iteration 01100    Loss 0.002629 resnet18 prediction for current iteration: 636 mailbag, postbag
+Iteration 01150    Loss 0.002415 resnet18 prediction for current iteration: 632 loudspeaker, speaker, speaker unit, loudspeaker system, speaker system
+Iteration 01200    Loss 0.002287 resnet18 prediction for current iteration: 636 mailbag, postbag
+Iteration 01250    Loss 0.002449 resnet18 prediction for current iteration: 636 mailbag, postbag
+Iteration 01300    Loss 0.002225 resnet18 prediction for current iteration: 636 mailbag, postbag
+Iteration 01350    Loss 0.002133 resnet18 prediction for current iteration: 636 mailbag, postbag
+Iteration 01400    Loss 0.002143 resnet18 prediction for current iteration: 632 loudspeaker, speaker, speaker unit, loudspeaker system, speaker system
+Iteration 01450    Loss 0.002050 resnet18 prediction for current iteration: 632 loudspeaker, speaker, speaker unit, loudspeaker system, speaker system
+Iteration 01500    Loss 0.001998 resnet18 prediction for current iteration: 632 loudspeaker, speaker, speaker unit, loudspeaker system, speaker system
+Iteration 01550    Loss 0.001983 resnet18 prediction for current iteration: 636 mailbag, postbag
+Iteration 01600    Loss 0.001970 resnet18 prediction for current iteration: 632 loudspeaker, speaker, speaker unit, loudspeaker system, speaker system
+Iteration 01650    Loss 0.001898 resnet18 prediction for current iteration: 632 loudspeaker, speaker, speaker unit, loudspeaker system, speaker system
+Iteration 01700    Loss 0.001918 resnet18 prediction for current iteration: 632 loudspeaker, speaker, speaker unit, loudspeaker system, speaker system
+Iteration 01750    Loss 0.001820 resnet18 prediction for current iteration: 632 loudspeaker, speaker, speaker unit, loudspeaker system, speaker system
+Iteration 01800    Loss 0.001783 resnet18 prediction for current iteration: 632 loudspeaker, speaker, speaker unit, loudspeaker system, speaker system
+Iteration 01850    Loss 0.001733 resnet18 prediction for current iteration: 632 loudspeaker, speaker, speaker unit, loudspeaker system, speaker system
+Iteration 01900    Loss 0.001784 resnet18 prediction for current iteration: 632 loudspeaker, speaker, speaker unit, loudspeaker system, speaker system
+Iteration 01950    Loss 0.001668 resnet18 prediction for current iteration: 632 loudspeaker, speaker, speaker unit, loudspeaker system, speaker system
+Iteration 02000    Loss 0.001679 resnet18 prediction for current iteration: 632 loudspeaker, speaker, speaker unit, loudspeaker system, speaker system
+Iteration 02050    Loss 0.001555 resnet18 prediction for current iteration: 632 loudspeaker, speaker, speaker unit, loudspeaker system, speaker system
+Iteration 02100    Loss 0.001612 resnet18 prediction for current iteration: 632 loudspeaker, speaker, speaker unit, loudspeaker system, speaker system
+Iteration 02150    Loss 0.001724 resnet18 prediction for current iteration: 632 loudspeaker, speaker, speaker unit, loudspeaker system, speaker system
+Iteration 02200    Loss 0.001576 resnet18 prediction for current iteration: 632 loudspeaker, speaker, speaker unit, loudspeaker system, speaker system
+Iteration 02250    Loss 0.001468 resnet18 prediction for current iteration: 632 loudspeaker, speaker, speaker unit, loudspeaker system, speaker system
+Iteration 02300    Loss 0.001425 resnet18 prediction for current iteration: 632 loudspeaker, speaker, speaker unit, loudspeaker system, speaker system
+Iteration 02350    Loss 0.001499 Non-adversarial prior obtained at iteration 2350 top 5 /5
+81 out of  82
+Total time elapsed:  75 mins
+predicted class 662 modem 662
+adversarial class 688 oscilloscope, scope, cathode-ray oscilloscope, CRO
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 128 black stork, Ciconia nigra
+Iteration 00000    Loss 0.088989 resnet18 prediction for current iteration: 901 whiskey jug
+Iteration 00050    Loss 0.029187 resnet18 prediction for current iteration: 59 vine snake
+Iteration 00100    Loss 0.022972 resnet18 prediction for current iteration: 59 vine snake
+Iteration 00150    Loss 0.017316 resnet18 prediction for current iteration: 59 vine snake
+Iteration 00200    Loss 0.013393 resnet18 prediction for current iteration: 111 nematode, nematode worm, roundworm
+Iteration 00250    Loss 0.011869 Non-adversarial prior obtained at iteration 250 top 3 /5
+82 out of  83
+Total time elapsed:  76 mins
+predicted class 662 modem 662
+adversarial class 637 mailbox, letter box
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 135 limpkin, Aramus pictus
+Iteration 00000    Loss 0.064415 resnet18 prediction for current iteration: 623 letter opener, paper knife, paperknife
+Iteration 00050    Loss 0.021169 resnet18 prediction for current iteration: 699 panpipe, pandean pipe, syrinx
+Iteration 00100    Loss 0.013849 resnet18 prediction for current iteration: 473 can opener, tin opener
+Iteration 00150    Loss 0.011303 resnet18 prediction for current iteration: 499 cleaver, meat cleaver, chopper
+Iteration 00200    Loss 0.008100 resnet18 prediction for current iteration: 726 plane, carpenter's plane, woodworking plane
+Iteration 00250    Loss 0.006755 resnet18 prediction for current iteration: 473 can opener, tin opener
+Iteration 00300    Loss 0.005681 resnet18 prediction for current iteration: 473 can opener, tin opener
+Iteration 00350    Loss 0.005869 resnet18 prediction for current iteration: 763 revolver, six-gun, six-shooter
+Iteration 00400    Loss 0.004659 resnet18 prediction for current iteration: 473 can opener, tin opener
+Iteration 00450    Loss 0.003904 resnet18 prediction for current iteration: 891 waffle iron
+Iteration 00500    Loss 0.003610 resnet18 prediction for current iteration: 593 harmonica, mouth organ, harp, mouth harp
+Iteration 00550    Loss 0.003130 resnet18 prediction for current iteration: 902 whistle
+Iteration 00600    Loss 0.002980 resnet18 prediction for current iteration: 891 waffle iron
+Iteration 00650    Loss 0.002702 resnet18 prediction for current iteration: 593 harmonica, mouth organ, harp, mouth harp
+Iteration 00700    Loss 0.002733 resnet18 prediction for current iteration: 891 waffle iron
+Iteration 00750    Loss 0.002406 resnet18 prediction for current iteration: 891 waffle iron
+Iteration 00800    Loss 0.002316 resnet18 prediction for current iteration: 891 waffle iron
+Iteration 00850    Loss 0.002232 resnet18 prediction for current iteration: 732 Polaroid camera, Polaroid Land camera
+Iteration 00900    Loss 0.002171 Non-adversarial prior obtained at iteration 900 top 4 /5
+83 out of  84
+Total time elapsed:  77 mins
+predicted class 999 toilet tissue, toilet paper, bathroom tissue 999
+adversarial class 704 parking meter
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 723 pinwheel
+Iteration 00000    Loss 0.029672 resnet18 prediction for current iteration: 335 fox squirrel, eastern fox squirrel, Sciurus niger
+Iteration 00050    Loss 0.010524 resnet18 prediction for current iteration: 80 black grouse
+Iteration 00100    Loss 0.007365 resnet18 prediction for current iteration: 80 black grouse
+Iteration 00150    Loss 0.006042 resnet18 prediction for current iteration: 80 black grouse
+Iteration 00200    Loss 0.005558 resnet18 prediction for current iteration: 606 iron, smoothing iron
+Iteration 00250    Loss 0.004940 resnet18 prediction for current iteration: 763 revolver, six-gun, six-shooter
+Iteration 00300    Loss 0.004630 resnet18 prediction for current iteration: 763 revolver, six-gun, six-shooter
+Iteration 00350    Loss 0.004539 resnet18 prediction for current iteration: 763 revolver, six-gun, six-shooter
+Iteration 00400    Loss 0.004452 resnet18 prediction for current iteration: 763 revolver, six-gun, six-shooter
+Iteration 00450    Loss 0.004330 resnet18 prediction for current iteration: 763 revolver, six-gun, six-shooter
+Iteration 00500    Loss 0.004169 Non-adversarial prior obtained at iteration 500 top 5 /5
+84 out of  85
+Total time elapsed:  78 mins
+predicted class 700 paper towel 999
+Prediction falied, skipping...
+predicted class 999 toilet tissue, toilet paper, bathroom tissue 999
+adversarial class 420 banjo
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 1 goldfish, Carassius auratus
+Iteration 00000    Loss 0.197302 resnet18 prediction for current iteration: 818 spotlight, spot
+Iteration 00050    Loss 0.017698 resnet18 prediction for current iteration: 818 spotlight, spot
+Iteration 00100    Loss 0.010433 resnet18 prediction for current iteration: 488 chain
+Iteration 00150    Loss 0.008237 resnet18 prediction for current iteration: 985 daisy
+Iteration 00200    Loss 0.007308 resnet18 prediction for current iteration: 985 daisy
+Iteration 00250    Loss 0.006367 resnet18 prediction for current iteration: 889 violin, fiddle
+Iteration 00300    Loss 0.005831 resnet18 prediction for current iteration: 889 violin, fiddle
+Iteration 00350    Loss 0.005753 resnet18 prediction for current iteration: 889 violin, fiddle
+Iteration 00400    Loss 0.005003 resnet18 prediction for current iteration: 110 flatworm, platyhelminth
+Iteration 00450    Loss 0.004939 resnet18 prediction for current iteration: 110 flatworm, platyhelminth
+Iteration 00500    Loss 0.004571 Non-adversarial prior obtained at iteration 500 top 5 /5
+86 out of  87
+Total time elapsed:  79 mins
+predicted class 999 toilet tissue, toilet paper, bathroom tissue 999
+adversarial class 700 paper towel
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 1 goldfish, Carassius auratus
+Iteration 00000    Loss 0.096056 resnet18 prediction for current iteration: 392 rock beauty, Holocanthus tricolor
+Iteration 00050    Loss 0.024957 resnet18 prediction for current iteration: 782 screen, CRT screen
+Iteration 00100    Loss 0.011347 resnet18 prediction for current iteration: 782 screen, CRT screen
+Iteration 00150    Loss 0.007701 resnet18 prediction for current iteration: 851 television, television system
+Iteration 00200    Loss 0.005679 resnet18 prediction for current iteration: 782 screen, CRT screen
+Iteration 00250    Loss 0.004835 resnet18 prediction for current iteration: 851 television, television system
+Iteration 00300    Loss 0.004331 resnet18 prediction for current iteration: 851 television, television system
+Iteration 00350    Loss 0.003309 resnet18 prediction for current iteration: 851 television, television system
+Iteration 00400    Loss 0.002929 resnet18 prediction for current iteration: 851 television, television system
+Iteration 00450    Loss 0.002553 resnet18 prediction for current iteration: 844 switch, electric switch, electrical switch
+Iteration 00500    Loss 0.002408 resnet18 prediction for current iteration: 844 switch, electric switch, electrical switch
+Iteration 00550    Loss 0.002263 resnet18 prediction for current iteration: 844 switch, electric switch, electrical switch
+Iteration 00600    Loss 0.002056 resnet18 prediction for current iteration: 844 switch, electric switch, electrical switch
+Iteration 00650    Loss 0.001999 resnet18 prediction for current iteration: 844 switch, electric switch, electrical switch
+Iteration 00700    Loss 0.001864 resnet18 prediction for current iteration: 844 switch, electric switch, electrical switch
+Iteration 00750    Loss 0.001650 Non-adversarial prior obtained at iteration 750 top 2 /5
+87 out of  88
+Total time elapsed:  81 mins
+predicted class 100 black swan, Cygnus atratus 100
+adversarial class 137 American coot, marsh hen, mud hen, water hen, Fulica americana
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 111 nematode, nematode worm, roundworm
+Iteration 00000    Loss 0.048337 resnet18 prediction for current iteration: 494 chime, bell, gong
+Iteration 00050    Loss 0.015607 resnet18 prediction for current iteration: 731 plunger, plumber's helper
+Iteration 00100    Loss 0.011001 resnet18 prediction for current iteration: 731 plunger, plumber's helper
+Iteration 00150    Loss 0.010026 resnet18 prediction for current iteration: 677 nail
+Iteration 00200    Loss 0.009325 resnet18 prediction for current iteration: 515 cowboy hat, ten-gallon hat
+Iteration 00250    Loss 0.008543 resnet18 prediction for current iteration: 618 ladle
+Iteration 00300    Loss 0.007903 resnet18 prediction for current iteration: 600 hook, claw
+Iteration 00350    Loss 0.007424 resnet18 prediction for current iteration: 600 hook, claw
+Iteration 00400    Loss 0.007208 resnet18 prediction for current iteration: 600 hook, claw
+Iteration 00450    Loss 0.006818 resnet18 prediction for current iteration: 423 barber chair
+Iteration 00500    Loss 0.006689 resnet18 prediction for current iteration: 618 ladle
+Iteration 00550    Loss 0.006490 resnet18 prediction for current iteration: 20 water ouzel, dipper
+Iteration 00600    Loss 0.006334 resnet18 prediction for current iteration: 97 drake
+Iteration 00650    Loss 0.006165 resnet18 prediction for current iteration: 100 black swan, Cygnus atratus
+Iteration 00700    Loss 0.005806 Non-adversarial prior obtained at iteration 700 top 1 /5
+88 out of  89
+Total time elapsed:  82 mins
+predicted class 100 black swan, Cygnus atratus 100
+adversarial class 137 American coot, marsh hen, mud hen, water hen, Fulica americana
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 107 jellyfish
+Iteration 00000    Loss 0.071363 resnet18 prediction for current iteration: 488 chain
+Iteration 00050    Loss 0.022683 resnet18 prediction for current iteration: 167 English foxhound
+Iteration 00100    Loss 0.012785 resnet18 prediction for current iteration: 629 lipstick, lip rouge
+Iteration 00150    Loss 0.010476 resnet18 prediction for current iteration: 145 king penguin, Aptenodytes patagonica
+Iteration 00200    Loss 0.007851 resnet18 prediction for current iteration: 145 king penguin, Aptenodytes patagonica
+Iteration 00250    Loss 0.005541 resnet18 prediction for current iteration: 145 king penguin, Aptenodytes patagonica
+Iteration 00300    Loss 0.004406 Non-adversarial prior obtained at iteration 300 top 5 /5
+89 out of  90
+Total time elapsed:  83 mins
+predicted class 100 black swan, Cygnus atratus 100
+adversarial class 99 goose
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 128 black stork, Ciconia nigra
+Iteration 00000    Loss 0.046610 resnet18 prediction for current iteration: 902 whistle
+Iteration 00050    Loss 0.011463 resnet18 prediction for current iteration: 100 black swan, Cygnus atratus
+Iteration 00100    Loss 0.008466 Non-adversarial prior obtained at iteration 100 top 1 /5
+90 out of  91
+Total time elapsed:  83 mins
+predicted class 100 black swan, Cygnus atratus 100
+adversarial class 208 Labrador retriever
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 611 jigsaw puzzle
+Iteration 00000    Loss 0.118739 resnet18 prediction for current iteration: 241 EntleBucher
+Iteration 00050    Loss 0.011472 resnet18 prediction for current iteration: 475 car mirror
+Iteration 00100    Loss 0.008554 resnet18 prediction for current iteration: 477 carpenter's kit, tool kit
+Iteration 00150    Loss 0.007307 resnet18 prediction for current iteration: 530 digital clock
+Iteration 00200    Loss 0.005568 resnet18 prediction for current iteration: 851 television, television system
+Iteration 00250    Loss 0.005227 resnet18 prediction for current iteration: 362 badger
+Iteration 00300    Loss 0.003684 resnet18 prediction for current iteration: 353 gazelle
+Iteration 00350    Loss 0.003395 resnet18 prediction for current iteration: 353 gazelle
+Iteration 00400    Loss 0.003084 resnet18 prediction for current iteration: 353 gazelle
+Iteration 00450    Loss 0.002925 resnet18 prediction for current iteration: 362 badger
+Iteration 00500    Loss 0.002771 resnet18 prediction for current iteration: 366 gorilla, Gorilla gorilla
+Iteration 00550    Loss 0.002650 resnet18 prediction for current iteration: 851 television, television system
+Iteration 00600    Loss 0.002557 resnet18 prediction for current iteration: 9 ostrich, Struthio camelus
+Iteration 00650    Loss 0.002435 Non-adversarial prior obtained at iteration 650 top 2 /5
+91 out of  92
+Total time elapsed:  84 mins
+predicted class 496 Christmas stocking 496
+adversarial class 806 sock
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 107 jellyfish
+Iteration 00000    Loss 0.038173 resnet18 prediction for current iteration: 714 pick, plectrum, plectron
+Iteration 00050    Loss 0.012977 resnet18 prediction for current iteration: 615 knee pad
+Iteration 00100    Loss 0.008074 resnet18 prediction for current iteration: 723 pinwheel
+Iteration 00150    Loss 0.007162 resnet18 prediction for current iteration: 902 whistle
+Iteration 00200    Loss 0.004860 resnet18 prediction for current iteration: 902 whistle
+Iteration 00250    Loss 0.003666 resnet18 prediction for current iteration: 902 whistle
+Iteration 00300    Loss 0.003072 resnet18 prediction for current iteration: 723 pinwheel
+Iteration 00350    Loss 0.003025 resnet18 prediction for current iteration: 723 pinwheel
+Iteration 00400    Loss 0.002745 Non-adversarial prior obtained at iteration 400 top 3 /5
+92 out of  93
+Total time elapsed:  85 mins
+predicted class 496 Christmas stocking 496
+adversarial class 806 sock
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 59 vine snake
+Iteration 00000    Loss 0.062004 resnet18 prediction for current iteration: 111 nematode, nematode worm, roundworm
+Iteration 00050    Loss 0.018760 resnet18 prediction for current iteration: 117 chambered nautilus, pearly nautilus, nautilus
+Iteration 00100    Loss 0.011053 resnet18 prediction for current iteration: 960 chocolate sauce, chocolate syrup
+Iteration 00150    Loss 0.008401 resnet18 prediction for current iteration: 960 chocolate sauce, chocolate syrup
+Iteration 00200    Loss 0.007226 resnet18 prediction for current iteration: 960 chocolate sauce, chocolate syrup
+Iteration 00250    Loss 0.006574 resnet18 prediction for current iteration: 960 chocolate sauce, chocolate syrup
+Iteration 00300    Loss 0.005377 resnet18 prediction for current iteration: 112 conch
+Iteration 00350    Loss 0.004746 resnet18 prediction for current iteration: 560 football helmet
+Iteration 00400    Loss 0.003579 resnet18 prediction for current iteration: 473 can opener, tin opener
+Iteration 00450    Loss 0.002965 Non-adversarial prior obtained at iteration 450 top 2 /5
+93 out of  94
+Total time elapsed:  86 mins
+predicted class 496 Christmas stocking 496
+adversarial class 806 sock
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 111 nematode, nematode worm, roundworm
+Iteration 00000    Loss 0.067741 resnet18 prediction for current iteration: 149 dugong, Dugong dugon
+Iteration 00050    Loss 0.040397 resnet18 prediction for current iteration: 107 jellyfish
+Iteration 00100    Loss 0.029151 resnet18 prediction for current iteration: 714 pick, plectrum, plectron
+Iteration 00150    Loss 0.019051 resnet18 prediction for current iteration: 596 hatchet
+Iteration 00200    Loss 0.012333 resnet18 prediction for current iteration: 902 whistle
+Iteration 00250    Loss 0.008737 Non-adversarial prior obtained at iteration 250 top 4 /5
+94 out of  95
+Total time elapsed:  86 mins
+predicted class 496 Christmas stocking 496
+adversarial class 735 poncho
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 5 electric ray, crampfish, numbfish, torpedo
+Iteration 00000    Loss 0.087655 resnet18 prediction for current iteration: 714 pick, plectrum, plectron
+Iteration 00050    Loss 0.022989 resnet18 prediction for current iteration: 714 pick, plectrum, plectron
+Iteration 00100    Loss 0.011088 resnet18 prediction for current iteration: 902 whistle
+Iteration 00150    Loss 0.008020 resnet18 prediction for current iteration: 684 ocarina, sweet potato
+Iteration 00200    Loss 0.006429 resnet18 prediction for current iteration: 684 ocarina, sweet potato
+Iteration 00250    Loss 0.005534 resnet18 prediction for current iteration: 902 whistle
+Iteration 00300    Loss 0.004912 resnet18 prediction for current iteration: 684 ocarina, sweet potato
+Iteration 00350    Loss 0.003986 resnet18 prediction for current iteration: 902 whistle
+Iteration 00400    Loss 0.003626 Non-adversarial prior obtained at iteration 400 top 4 /5
+95 out of  96
+Total time elapsed:  87 mins
+predicted class 85 quail 85
+adversarial class 17 jay
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 128 black stork, Ciconia nigra
+Iteration 00000    Loss 0.035596 resnet18 prediction for current iteration: 145 king penguin, Aptenodytes patagonica
+Iteration 00050    Loss 0.021963 resnet18 prediction for current iteration: 375 colobus, colobus monkey
+Iteration 00100    Loss 0.019625 resnet18 prediction for current iteration: 89 sulphur-crested cockatoo, Kakatoe galerita, Cacatua galerita
+Iteration 00150    Loss 0.017398 resnet18 prediction for current iteration: 4 hammerhead, hammerhead shark
+Iteration 00200    Loss 0.015991 resnet18 prediction for current iteration: 132 American egret, great white heron, Egretta albus
+Iteration 00250    Loss 0.014696 resnet18 prediction for current iteration: 4 hammerhead, hammerhead shark
+Iteration 00300    Loss 0.013335 resnet18 prediction for current iteration: 4 hammerhead, hammerhead shark
+Iteration 00350    Loss 0.012220 Non-adversarial prior obtained at iteration 350 top 5 /5
+96 out of  97
+Total time elapsed:  88 mins
+predicted class 85 quail 85
+adversarial class 80 black grouse
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 94 hummingbird
+Iteration 00000    Loss 0.038510 resnet18 prediction for current iteration: 166 Walker hound, Walker foxhound
+Iteration 00050    Loss 0.021229 resnet18 prediction for current iteration: 80 black grouse
+Iteration 00100    Loss 0.019410 resnet18 prediction for current iteration: 80 black grouse
+Iteration 00150    Loss 0.017464 resnet18 prediction for current iteration: 384 indri, indris, Indri indri, Indri brevicaudatus
+Iteration 00200    Loss 0.015887 resnet18 prediction for current iteration: 349 bighorn, bighorn sheep, cimarron, Rocky Mountain bighorn, Rocky Mountain sheep, Ovis canadensis
+Iteration 00250    Loss 0.014892 resnet18 prediction for current iteration: 101 tusker
+Iteration 00300    Loss 0.013577 resnet18 prediction for current iteration: 85 quail
+Iteration 00350    Loss 0.012548 Non-adversarial prior obtained at iteration 350 top 1 /5
+97 out of  98
+Total time elapsed:  88 mins
+predicted class 85 quail 85
+adversarial class 81 ptarmigan
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 94 hummingbird
+Iteration 00000    Loss 0.032989 resnet18 prediction for current iteration: 392 rock beauty, Holocanthus tricolor
+Iteration 00050    Loss 0.018676 resnet18 prediction for current iteration: 68 sidewinder, horned rattlesnake, Crotalus cerastes
+Iteration 00100    Loss 0.014895 resnet18 prediction for current iteration: 26 common newt, Triturus vulgaris
+Iteration 00150    Loss 0.013162 resnet18 prediction for current iteration: 4 hammerhead, hammerhead shark
+Iteration 00200    Loss 0.011758 resnet18 prediction for current iteration: 937 broccoli
+Iteration 00250    Loss 0.010523 resnet18 prediction for current iteration: 20 water ouzel, dipper
+Iteration 00300    Loss 0.010014 Non-adversarial prior obtained at iteration 300 top 2 /5
+98 out of  99
+Total time elapsed:  89 mins
+predicted class 85 quail 85
+adversarial class 102 echidna, spiny anteater, anteater
+Number of params: 572827
+Starting optimization with ADAM
+resnet18 prediction for current iteration: 374 langur
+Iteration 00000    Loss 0.080408 resnet18 prediction for current iteration: 111 nematode, nematode worm, roundworm
+Iteration 00050    Loss 0.023949 resnet18 prediction for current iteration: 241 EntleBucher
+Iteration 00100    Loss 0.022216 resnet18 prediction for current iteration: 375 colobus, colobus monkey
+Iteration 00150    Loss 0.019416 resnet18 prediction for current iteration: 98 red-breasted merganser, Mergus serrator
+Iteration 00200    Loss 0.017771 resnet18 prediction for current iteration: 278 kit fox, Vulpes macrotis
+Iteration 00250    Loss 0.016247 Non-adversarial prior obtained at iteration 250 top 3 /5
+99 out of  100
+Total time elapsed:  89 mins
+Summary of attack ADefAttack : total correct  69 out of  70
