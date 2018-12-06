@@ -59,9 +59,9 @@ labels = {int(key): value for key, value in response.json().items()}
 X, y, class_names = load_imagenet_val(num=100)
 X = X / 255
 X_reshaped = np.moveaxis(X,3,1)
-print ('Data type', X.dtype , 'Image Classes:')
-for img in y:
-    print (img, ',', labels[img])
+# print ('Data type', X.dtype , 'Image Classes:')
+# for img in y:
+#     print (img, ',', labels[img])
 
 # Set up a classifer (resnet 18), and a foolbox model to attck that classifier.
 
@@ -104,14 +104,12 @@ def closure():
         #out_np_normal = (out_np - np.reshape([0.485, 0.456, 0.406],(3,1,1))/np.reshape([0.229, 0.224, 0.225],(3,1,1)))
         predictions = np.argsort(fmodel.predictions(np.array(out_np, dtype=np.float32)))[-5:][::-1]
         print ('resnet18 prediction for current iteration:', predictions[0], labels[predictions[0]])
-        print ('Iteration %05d    Loss %f' % (i, total_loss.item()), '\r', end='')
+        print ('Iteration %05d    Loss %f' % (i, total_loss.item()))
         if (true_label in predictions):
             if ((adversarial_label not in predictions) or ((adversarial_label in predictions) and (predictions.tolist().index(adversarial_label) >= predictions.tolist().index(true_label)))):
                 print ('Non-adversarial prior obtained at iteration', i, 'top', predictions.tolist().index(true_label)+1,'/5')
-                correct += 1
-                flag = True
-            else:
-                flag = False
+                if i >= num_iter-50:
+                    correct += 1
 
     
     # Backtracking
@@ -129,18 +127,13 @@ def closure():
             
     i += 1
 
-    if not flag: 
-        return total_loss 
-    else: 
-        flag = False
-        return 0
-begin = time.time()
+    return total_loss 
 
+begin = time.time()
+timer = 0
 # Create a list of foolbox attack models
-# batch 1
-# attacks = [foolbox.attacks.FGSM(fmodel), foolbox.attacks.AdditiveGaussianNoiseAttack(fmodel), foolbox.attacks.BlendedUniformNoiseAttack(fmodel), foolbox.attacks.GaussianBlurAttack(fmodel), foolbox.attacks.NewtonFoolAttack(model=fmodel), foolbox.attacks.SaliencyMapAttack(model=fmodel)]
-# batch 2
-attacks = [foolbox.attacks.FGSM(fmodel), foolbox.attacks.DeepFoolAttack(fmodel), foolbox.attacks.CarliniWagnerL2Attack(fmodel), foolbox.attacks.SaltAndPepperNoiseAttack(fmodel)]
+
+attacks = [foolbox.attacks.FGSM(fmodel),foolbox.attacks.AdditiveGaussianNoiseAttack(fmodel), foolbox.attacks.BlendedUniformNoiseAttack(fmodel), foolbox.attacks.GaussianBlurAttack(fmodel), foolbox.attacks.NewtonFoolAttack(model=fmodel), foolbox.attacks.DeepFoolAttack(fmodel), foolbox.attacks.CarliniWagnerL2Attack(fmodel), foolbox.attacks.SaltAndPepperNoiseAttack(fmodel), foolbox.attacks.ADefAttack(fmodel)]
 
 
 for attack in attacks:
@@ -216,7 +209,7 @@ for attack in attacks:
         exp_weight=0.99
 
 
-        num_iter = 3000
+        num_iter = 1750
         input_depth = 3
         figsize = 5 
 
@@ -256,7 +249,8 @@ for attack in attacks:
         optimize(OPTIMIZER, p, closure, LR, num_iter)
         
         print (correct, 'out of ', img+1)
-        print ('Total time elapsed: ', int((time.time()-begin)/60), 'mins')
+        print ('Total time elapsed: ', int((time.time()-begin)/60), 'mins', ', Time for this attack:', int((time.time()-begin)/60)-timer)
+        timer = int((time.time()-begin)/60)
 
     print ('Summary of attack', attack.name(), ': total correct ', correct-skipped, 'out of ', 100-skipped)
 
