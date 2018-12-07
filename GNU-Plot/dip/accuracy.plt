@@ -20,12 +20,13 @@ set border 3 # 1 + 2 + 8 - left + bottom
 # tics
 set xtics nomirror font "Helvetica, 14"
 set ytics nomirror font "Helvetica, 14"
-set xtics ("GS" 0, "AGN" 1, "BUN" 2, "GB" 3, "NF" 4, "DFA" 5, "CWA" 6, "SPN" 7) 
+set xtics ("GS" 0, "AGN" 1, "BUN" 2, "AD" 3, "NF" 4, "DFA" 5, "CWA" 6, "SPN" 7) 
 # set ytics("0" 0, "100K" 100000, "500K" 500000, "1000K" 1000000)
 
 # GS - Gradient Sign
 # AGN - Additive Gaussian Noise
 # BUN - Blended Uniform Noise
+# AD - ADefAttack
 # GB - Gaussian Blur
 # NF - NewtonFool
 # DFA - DeepFoolAttack
@@ -36,4 +37,4 @@ set xtics ("GS" 0, "AGN" 1, "BUN" 2, "GB" 3, "NF" 4, "DFA" 5, "CWA" 6, "SPN" 7)
 set yrange [0:100]
 
 # plot
-plot './accuracy.txt' using ($0):(($1) * 100) axes x1y1 title '' with boxes lc rgb 'royalblue'
+plot './accuracy-fixed-term.txt' using ($0):(($1)) axes x1y1 title '' with boxes lc rgb 'royalblue'
