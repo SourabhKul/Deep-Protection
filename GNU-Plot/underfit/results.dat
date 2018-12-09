@@ -1,0 +1,8 @@
+GradientSignAttack 8.2 5.5
+AdditiveGaussianNoiseAttack 5.5 8.2
+BlendedUniformNoiseAttack 15.1 12.3
+ADefAttack 4.2 8.6
+NewtonFoolAttack 4.2 8.2
+DeepFoolAttack 4.2 7.0
+CarliniWagnerL2Attack 5.5 8.2
+SaltAndPepperNoiseAttack 8.2 6.8

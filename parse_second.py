@@ -53,8 +53,8 @@ for key in keys:
         print ("Iteration ", ite * 50, " Correct ", correct, " out of ", total)
         iter_correct.append(correct)
     plot = plt
-    plot.plot(np.arange(iter_correct),iter_correct)
-    plot.show()
+    # plot.plot(np.arange(iter_correct),iter_correct)
+    # plot.show()
 
 # Underfit/Fail and Overfit
 
