@@ -5,12 +5,12 @@
 # 
 # - Import clean image examples from imagenet
 # - Apply adversarial preturbations
-# - Pass through deep image prior based denoiser
+# - Pass through deep image prior based recontruction
 # - Compare adversarial and denoised images
 # - Use pretrained resnet18 classifier to predict classes
 # 
 # Note: To see overfitting set `num_iter` to a large value.
-# Original code borrowed from: https://github.com/DmitryUlyanov/deep-image-prior
+# Original code borrowed from: https://github.com/DmitryUlyanov/deep-image-prior - Thanks!
 
 # # Import libs
 
@@ -101,7 +101,7 @@ def closure():
         out_np = torch_to_np(out)
         # plot_image_grid([np.clip(out_np, 0, 1), 
         #                  np.clip(torch_to_np(out_avg), 0, 1)], factor=figsize, nrow=1)
-        #out_np_normal = (out_np - np.reshape([0.485, 0.456, 0.406],(3,1,1))/np.reshape([0.229, 0.224, 0.225],(3,1,1)))
+        # out_np_normal = (out_np - np.reshape([0.485, 0.456, 0.406],(3,1,1))/np.reshape([0.229, 0.224, 0.225],(3,1,1)))
         predictions = np.argsort(fmodel.predictions(np.array(out_np, dtype=np.float32)))[-5:][::-1]
         print ('resnet18 prediction for current iteration:', predictions[0], labels[predictions[0]])
         print ('Iteration %05d    Loss %f' % (i, total_loss.item()))
@@ -197,7 +197,7 @@ for attack in attacks:
         # Deep image prior setup
 
 
-        INPUT = 'noise' # 'meshgrid'
+        INPUT = 'noise' # 'meshgrid', 'noise'
         pad = 'reflection'
         OPT_OVER = 'net' # 'net,input'
 
@@ -233,6 +233,7 @@ for attack in attacks:
 
         # Loss
         mse = torch.nn.MSELoss().type(dtype)
+        cross = torch.nn.CrossEntropyLoss().type(dtype)
         img_noisy_torch = np_to_torch(img_noisy_np).type(dtype)
         # prediction = np.argmax(fmodel.predictions(np.array(img_np/255, dtype=np.double)))
         # print ('Initial adversarial image prediction for resnet18:', prediction, labels[prediction])
