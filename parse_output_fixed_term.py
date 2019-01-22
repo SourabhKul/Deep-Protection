@@ -6,12 +6,16 @@ for file in files_to_read:
         for line in fin:
             if "Begin attack" in  line:
                 required_lines.append(line)
-            elif "Iteration 0" in line:
-                required_lines.append(line)
-            elif "Non-adversarial prior obtained at iteration" in line:
-                required_lines.append(line)
+            # elif "Iteration 01700" in line:
+            #     required_lines.append(line)
+            elif "Non-adversarial prior obtained at iteration 1700" in line:
+                x = line.replace("Non-adversarial prior obtained at iteration 1700", '')
+                x = x.replace(" top", '')
+                x = x.replace(" /5", '')
+                required_lines.append(x)
+                # required_lines.append(line)
 
-with open('fixed_term_processed.txt', 'w') as f:
+with open('fixed_term_processed_1700.txt', 'w') as f:
     for item in required_lines:
         f.write("%s" % item)
 
