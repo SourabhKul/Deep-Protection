@@ -1,8 +1,8 @@
-86.30 GradientSignAttack
-86.30 AdditiveGaussianNoiseAttack
-72.60 BlendedUniformNoiseAttack
-87.14 ADefAttack
-86.67 NewtonFoolAttack
-86.30 DeepFoolAttack
-86.30 CarliniWagnerL2Attack
-83.56 SaltAndPepperNoiseAttack
+86.30 74 GradientSignAttack
+86.30 78 AdditiveGaussianNoiseAttack
+72.60 54.8 BlendedUniformNoiseAttack
+87.14 70 ADefAttack
+86.67 78 NewtonFoolAttack
+86.30 76 DeepFoolAttack
+86.30 78 CarliniWagnerL2Attack
+83.56 65.8 SaltAndPepperNoiseAttack
